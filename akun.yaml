@@ -1,73 +1,112 @@
 proxies:
-- name: Trojan-b1
+- name: ID-Biz JKT
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 607fc3a0-fa6d-11ec-a825-1239d0255272
+  password: 0943e160-1aef-11ed-83ef-1239d0255272
   network: ws
-  sni: trojan3.udpgw.com
+  sni: id2-trojan.bonds.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan3.udpgw.com
+    Host: id2-trojan.bonds.id
 
-- name: Trojan-b2
+- name: SG UDPGW
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: jagoanssh-viktorrio
+  password: 23e8cf50-2f05-11ed-a8f3-1239d0255272
   network: ws
-  sni: id1go.ipservers.xyz
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan
-  headers:
-    Host: id1go.ipservers.xyz
-
-- name: Trojan-b3
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: e9213730-042f-11ed-97d5-1239d0255272
-  network: ws
-  sni: idtj-ikd.bonds.id
+  sni: sg8-trojan.bonds.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: idtj-ikd.bonds.id
+    Host: sg8-trojan.bonds.id
 
-- name: Trojan-b4
+- name: SG HE-1
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 414e3be0-0430-11ed-87e2-1239d0255272
+  password: 423b96f0-1edb-11ed-95e1-1239d0255272
   network: ws
-  sni: idtj-uninet.bonds.id
+  sni: sg1-trojan.bonds.id
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: idtj-uninet.bonds.id
+    Host: sg1-trojan.bonds.id
 
-- name: Vmess-b1
+- name: SG HE-2
   server: hynesconstruction.com
   port: 443
-  type: vmess
-  uuid: ec142bbb-f9a6-4d09-aadd-8f5c92b93520
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: dynamic-sg1b.obfs.xyz
+  type: trojan
+  password: 82030f50-2f06-11ed-bb3b-1239d0255272
   network: ws
+  sni: sg2-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
   ws-opts:
-    path: /fastssh
-    headers:
-      Host: dynamic-sg1b.obfs.xyz
+    path: /howdy
+  headers:
+    Host: sg2-trojan.bonds.id
+
+- name: SG HE-3
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: fdf9a690-2f05-11ed-a38c-1239d0255272
+  network: ws
+  sni: sg3-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: sg3-trojan.bonds.id
+
+- name: SG-HE MUX
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 6eaaa020-2f05-11ed-aabc-1239d0255272
+  network: ws
+  sni: sg6-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: sg6-trojan.bonds.id
+
+- name: SG OVH
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 86d3ca30-2f06-11ed-bb98-1239d0255272
+  network: ws
+  sni: sgovh-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: sgovh-trojan.bonds.id
+
+- name: ID-Herza
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 52e48220-2f06-11ed-9b60-1239d0255272
+  network: ws
+  sni: idtj-herza.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: idtj-herza.bonds.id
