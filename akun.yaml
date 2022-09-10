@@ -1,0 +1,73 @@
+proxies:
+- name: Trojan-b1
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 607fc3a0-fa6d-11ec-a825-1239d0255272
+  network: ws
+  sni: trojan3.udpgw.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan3.udpgw.com
+
+- name: Trojan-b2
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: jagoanssh-viktorrio
+  network: ws
+  sni: id1go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+  headers:
+    Host: id1go.ipservers.xyz
+
+- name: Trojan-b3
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: e9213730-042f-11ed-97d5-1239d0255272
+  network: ws
+  sni: idtj-ikd.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: idtj-ikd.bonds.id
+
+- name: Trojan-b4
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 414e3be0-0430-11ed-87e2-1239d0255272
+  network: ws
+  sni: idtj-uninet.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: idtj-uninet.bonds.id
+
+- name: Vmess-b1
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: ec142bbb-f9a6-4d09-aadd-8f5c92b93520
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dynamic-sg1b.obfs.xyz
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: dynamic-sg1b.obfs.xyz
