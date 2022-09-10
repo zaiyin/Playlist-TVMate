@@ -1,4 +1,63 @@
 proxies:
+- name: Weekly Trojan Howdy
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: befb7de0-2f02-11ed-a056-1239d0255272
+  network: ws
+  sni: trojan2.udpgw.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan2.udpgw.com
+
+- name: ID3 SSHOC
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 9b58bfcf-b66b-45b6-8778-0761400804dd
+  network: ws
+  sni: idt3.sshocean.net
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /websocket
+  headers:
+    Host: idt3.sshocean.net
+
+- name: Dynamic SG Vultr
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: b4a21736-c745-46fc-8d8e-6b6826c15344
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: dynamic-sg1b.obfs.xyz
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: dynamic-sg1b.obfs.xyz
+
+- name: Fastssh Trojan ID
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 45552be0-2d74-11ed-b734-225401db9d57
+  network: ws
+  sni: id-ikd.tjvpn.org
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /fastssh
+  headers:
+    Host: id-ikd.tjvpn.org
+
 - name: ID-Biz JKT
   server: hynesconstruction.com
   port: 443
@@ -110,3 +169,20 @@ proxies:
     path: /howdy
   headers:
     Host: idtj-herza.bonds.id
+
+- name: V2Ray Indonesia ATHA
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id2.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/cocote/62f77abf4801d/
+    headers:
+      Host: id2.v2-ray.com
