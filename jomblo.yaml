@@ -72,6 +72,20 @@ proxies:
   headers:
     Host: id2-trojan.bonds.id
 
+- name: ID-Biz Banten
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 6deaef30-30c1-11ed-9c6a-1239d0255272
+  network: ws
+  sni: id5-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: id5-trojan.bonds.id
+
 - name: SG UDPGW
   server: hynesconstruction.com
   port: 443
