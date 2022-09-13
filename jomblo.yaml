@@ -31,7 +31,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: b4a21736-c745-46fc-8d8e-6b6826c15344
+  uuid: f66e68e0-c46d-4488-a7a0-68b8bce24208
   alterId: 0
   cipher: auto
   udp: true
