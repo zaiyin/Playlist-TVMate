@@ -90,7 +90,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 6deaef30-30c1-11ed-9c6a-1239d0255272
+  password: e01b4500-34ea-11ed-b3f8-1239d0255272
   network: ws
   sni: id5-trojan.bonds.id
   skip-cert-verify: true
@@ -118,7 +118,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 423b96f0-1edb-11ed-95e1-1239d0255272
+  password: 4ce52660-34eb-11ed-bc46-1239d0255272
   network: ws
   sni: sg1-trojan.bonds.id
   skip-cert-verify: true
@@ -146,7 +146,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: fdf9a690-2f05-11ed-a38c-1239d0255272
+  password: 03f8bf20-34eb-11ed-9788-1239d0255272
   network: ws
   sni: sg3-trojan.bonds.id
   skip-cert-verify: true
@@ -188,7 +188,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 52e48220-2f06-11ed-9b60-1239d0255272
+  password: a09389b0-34ea-11ed-80ac-1239d0255272
   network: ws
   sni: idtj-herza.bonds.id
   skip-cert-verify: true
