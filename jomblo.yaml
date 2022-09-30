@@ -2,19 +2,16 @@ proxies:
 - name: Weekly Trojan Howdy
   server: hynesconstruction.com
   port: 443
-  type: vmess
-  uuid: fec6bb98-2c64-4df9-be8e-a60aae79012d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray3.udpgw.com
+  type: trojan
+  password: c8f7d860-40c1-11ed-8366-1239d0255272
   network: ws
+  sni: trojan3.udpgw.com
+  skip-cert-verify: true
+  udp: true
   ws-opts:
-    path: /howdy
-    headers:
-      Host: v2ray3.udpgw.com
+    path: /websocket
+  headers:
+    Host: trojan3.udpgw.com
 
 - name: ID3 SSHOC
   server: hynesconstruction.com
