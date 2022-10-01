@@ -48,7 +48,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 00b0bf10-372c-11ed-b839-225401db9d57
+  password: 40971eb0-418e-11ed-b238-225401db9d57
   network: ws
   sni: id-ikd.tjvpn.org
   skip-cert-verify: true
