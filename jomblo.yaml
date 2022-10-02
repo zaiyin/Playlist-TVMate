@@ -9,7 +9,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /websocket
+    path: /howdy
   headers:
     Host: trojan3.udpgw.com
 
