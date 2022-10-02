@@ -214,3 +214,37 @@ proxies:
     path: /fastssh/yurrtrggbty/6338e6276bfbd/
     headers:
       Host: id-ikd.v2-ray.com
+      
+- name: V2Ray Indonesia Herza
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id-herza.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/fgdnvhgcgf/633939b258fa7/
+    headers:
+      Host: id-herza.v2-ray.com
+
+- name: V2Ray Indonesia MY
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: my.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/ftytfyeytfy/6339391173f40/
+    headers:
+      Host: my.v2-ray.com
