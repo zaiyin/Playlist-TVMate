@@ -198,19 +198,19 @@ proxies:
   headers:
     Host: idtj-herza.bonds.id
 
-- name: V2Ray Indonesia ATHA
+- name: V2Ray Indonesia IKD
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: id2.v2-ray.com
+  servername: id-ikd.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/cocote/62f77abf4801d/
+    path: /fastssh/yurrtrggbty/6338e6276bfbd/
     headers:
-      Host: id2.v2-ray.com
+      Host: id-ikd.v2-ray.com
