@@ -31,18 +31,18 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 5f4d0e85-e25e-4e89-ae93-2b0e1b02054e
+  uuid: d4d8fb83-71d9-49a4-ae1e-7c49e9a069c4
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: dynamic-sg2b.obfs.xyz
+  servername: dynamic-sg1b.obfs.xyz
   network: ws
   ws-opts:
     path: /fastssh
     headers:
-      Host: dynamic-sg2b.obfs.xyz
+      Host: dynamic-sg1b.obfs.xyz
 
 - name: Fastssh Trojan ID
   server: hynesconstruction.com
