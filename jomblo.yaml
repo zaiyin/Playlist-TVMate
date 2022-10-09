@@ -48,7 +48,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 40971eb0-418e-11ed-b238-225401db9d57
+  password: 131331d0-47af-11ed-b537-225401db9d57
   network: ws
   sni: id-ikd.tjvpn.org
   skip-cert-verify: true
@@ -246,7 +246,7 @@ proxies:
     headers:
       Host: id-herza.v2-ray.com
 
-- name: V2Ray Indonesia MY
+- name: V2Ray MY
   server: hynesconstruction.com
   port: 443
   type: vmess
