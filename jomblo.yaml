@@ -202,7 +202,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: a09389b0-34ea-11ed-80ac-1239d0255272
+  password: eb4c4940-47ae-11ed-ac69-1239d0255272
   network: ws
   sni: idtj-herza.bonds.id
   skip-cert-verify: true
