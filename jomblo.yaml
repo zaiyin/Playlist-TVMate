@@ -3,15 +3,15 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 1e8792a0-43dc-11ed-b4f8-1239d0255272
+  password: ab519140-4c7d-11ed-b50d-1239d0255272
   network: ws
-  sni: trojan1.udpgw.com
+  sni: trojan2.udpgw.com
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan1.udpgw.com
+    Host: trojan2.udpgw.com
 
 - name: ID3 SSHOC
   server: hynesconstruction.com
