@@ -212,6 +212,20 @@ proxies:
   headers:
     Host: idtj-herza.bonds.id
 
+- name: US
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 56da83a0-4c7d-11ed-a3ce-1239d0255272
+  network: ws
+  sni: us-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: us-trojan.bonds.id
+
 - name: V2Ray Indonesia IKD
   server: hynesconstruction.com
   port: 443
