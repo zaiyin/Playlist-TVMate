@@ -13,7 +13,7 @@ proxies:
   headers:
     Host: trojan2.udpgw.com
 
-- name: Dynamic SG Vultr
+- name: Weekly V2Ray Howdy
   server: hynesconstruction.com
   port: 443
   type: vmess
