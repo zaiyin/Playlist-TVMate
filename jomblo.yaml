@@ -13,6 +13,23 @@ proxies:
   headers:
     Host: trojan2.udpgw.com
 
+- name: Dynamic SG Vultr
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 70512e7c-aa62-443a-aed6-a83bc43f3ceb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray2.udpgw.com
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: v2ray2.udpgw.com
+
 - name: ID3 SSHOC
   server: hynesconstruction.com
   port: 443
