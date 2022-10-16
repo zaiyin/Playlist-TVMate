@@ -17,7 +17,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: b196a358-7f0b-45bb-a79b-cf81126871d3
+  password: 962145f5-e0f7-4258-93ed-9000ec201bdc
   network: ws
   sni: idt3.sshocean.net
   skip-cert-verify: true
@@ -230,7 +230,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
   alterId: 0
   cipher: auto
   udp: true
@@ -239,7 +239,7 @@ proxies:
   servername: id-ikd.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/ygnfgtyfthtf/63436656b7f58/
+    path: /fastssh/jgyfgvgvh/634bd927a7b61/
     headers:
       Host: id-ikd.v2-ray.com
       
@@ -247,7 +247,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
   alterId: 0
   cipher: auto
   udp: true
@@ -256,7 +256,7 @@ proxies:
   servername: id-herza.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/hgjgydfgvfgg/634366a58d57b/
+    path: /fastssh/jhgnbhbyg/634bd8cc6412e/
     headers:
       Host: id-herza.v2-ray.com
 
@@ -264,7 +264,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa
+  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
   alterId: 0
   cipher: auto
   udp: true
@@ -273,6 +273,6 @@ proxies:
   servername: my.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/tdygdrg/634365f3c4073/
+    path: /fastssh/matamucoook/634bd7ee82b97/
     headers:
       Host: my.v2-ray.com
