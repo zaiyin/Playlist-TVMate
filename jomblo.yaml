@@ -30,6 +30,57 @@ proxies:
     headers:
       Host: v2ray2.udpgw.com
 
+- name: V2Ray SG UDPGW
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg3.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/uyftyhtfh/634f794f1426e/
+    headers:
+      Host: sg3.v2-ray.com
+
+- name: V2Ray Singapore HE-1
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 5fc32973-a15e-404c-b1f7-707187f7fd6e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg1.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/dfgdvbdfrytr/634f79bddb58d/
+    headers:
+      Host: sg1.v2-ray.com
+
+- name: V2Ray Singapore HE-2
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg2.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/cccccffertgr/634f7a2256027/
+    headers:
+      Host: sg2.v2-ray.com
+
 - name: ID3 SSHOC
   server: hynesconstruction.com
   port: 443
@@ -276,54 +327,3 @@ proxies:
     path: /fastssh/jhgnbhbyg/634bd8cc6412e/
     headers:
       Host: id-herza.v2-ray.com
-
-- name: V2Ray SG UDPGW
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sg3.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/uyftyhtfh/634f794f1426e/
-    headers:
-      Host: sg3.v2-ray.com
-
-- name: V2Ray Singapore HE-1
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 5fc32973-a15e-404c-b1f7-707187f7fd6e
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sg1.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/dfgdvbdfrytr/634f79bddb58d/
-    headers:
-      Host: sg1.v2-ray.com
-
-- name: V2Ray Singapore HE-2
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sg2.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/cccccffertgr/634f7a2256027/
-    headers:
-      Host: sg2.v2-ray.com
