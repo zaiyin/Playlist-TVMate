@@ -43,7 +43,7 @@ proxies:
   servername: sg3.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/uyftyhtfh/634f794f1426e/
+    path: /fastssh/basapp/6354b69e11a79/
     headers:
       Host: sg3.v2-ray.com
 
@@ -51,7 +51,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 5fc32973-a15e-404c-b1f7-707187f7fd6e
+  uuid: 16ceca7e-d27b-4b0d-acd7-a1d70e278be8
   alterId: 0
   cipher: auto
   udp: true
@@ -60,7 +60,7 @@ proxies:
   servername: sg1.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/dfgdvbdfrytr/634f79bddb58d/
+    path: /fastssh/heherrr/6354b740b1bd7/
     headers:
       Host: sg1.v2-ray.com
 
@@ -68,7 +68,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  uuid: ff382d09-becd-41cb-8e4f-3e256b27de47
   alterId: 0
   cipher: auto
   udp: true
@@ -77,9 +77,43 @@ proxies:
   servername: sg2.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/cccccffertgr/634f7a2256027/
+    path: /fastssh/laluu/6354b6f67bb5f/
     headers:
       Host: sg2.v2-ray.com
+      
+ - name: V2Ray Indonesia IKD
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id-ikd.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/ikdikidkaik/6354b7e17d268/
+    headers:
+      Host: id-ikd.v2-ray.com
+      
+- name: V2Ray Indonesia Herza
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id-herza.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/hersaaaa/6354b79f8d02d/
+    headers:
+      Host: id-herza.v2-ray.com
 
 - name: ID3 SSHOC
   server: hynesconstruction.com
@@ -99,24 +133,24 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: d4d8fb83-71d9-49a4-ae1e-7c49e9a069c4
+  uuid: cc8398d4-0aa9-4de4-82b5-622361974f5e
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: dynamic-sg1b.obfs.xyz
+  servername: dynamic-sg3b.obfs.xyz
   network: ws
   ws-opts:
     path: /fastssh
     headers:
-      Host: dynamic-sg1b.obfs.xyz
+      Host: dynamic-sg3b.obfs.xyz
 
 - name: Fastssh Trojan ID
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 131331d0-47af-11ed-b537-225401db9d57
+  password: c1b95f80-5284-11ed-b134-225401db9d57
   network: ws
   sni: id-ikd.tjvpn.org
   skip-cert-verify: true
@@ -294,36 +328,3 @@ proxies:
   headers:
     Host: us-trojan.bonds.id
 
-- name: V2Ray Indonesia IKD
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id-ikd.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/jgyfgvgvh/634bd927a7b61/
-    headers:
-      Host: id-ikd.v2-ray.com
-      
-- name: V2Ray Indonesia Herza
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id-herza.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/jhgnbhbyg/634bd8cc6412e/
-    headers:
-      Host: id-herza.v2-ray.com
