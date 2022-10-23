@@ -80,8 +80,8 @@ proxies:
     path: /fastssh/laluu/6354b6f67bb5f/
     headers:
       Host: sg2.v2-ray.com
-      
- - name: V2Ray Indonesia IKD
+
+- name: V2Ray Indonesia IKD
   server: hynesconstruction.com
   port: 443
   type: vmess
