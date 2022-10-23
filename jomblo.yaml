@@ -94,7 +94,7 @@ proxies:
   servername: id-ikd.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/ikdikidkaik/6354b7e17d268/
+    path: /fastssh/fghtfyggg/6354ba2ca24d7/
     headers:
       Host: id-ikd.v2-ray.com
       
@@ -102,7 +102,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  uuid: e715caca-c520-4388-bfc0-09707170867a
   alterId: 0
   cipher: auto
   udp: true
@@ -111,7 +111,7 @@ proxies:
   servername: id-herza.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/hersaaaa/6354b79f8d02d/
+    path: /fastssh/bebekkk/6354ba61c2ec1/
     headers:
       Host: id-herza.v2-ray.com
 
