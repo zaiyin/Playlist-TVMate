@@ -164,7 +164,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: c9417aa0-47ad-11ed-82f5-1239d0255272
+  password: bbbcc700-5509-11ed-ad17-1239d0255272
   network: ws
   sni: idtj-ikd.bonds.id
   skip-cert-verify: true
@@ -174,25 +174,11 @@ proxies:
   headers:
     Host: idtj-ikd.bonds.id
 
-- name: ID-Biz JKT
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 0943e160-1aef-11ed-83ef-1239d0255272
-  network: ws
-  sni: id2-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: id2-trojan.bonds.id
-
 - name: ID-Biz Banten
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: a32832e0-47ad-11ed-9b5d-1239d0255272
+  password: f4fddc40-5509-11ed-a7d3-1239d0255272
   network: ws
   sni: id5-trojan.bonds.id
   skip-cert-verify: true
@@ -304,7 +290,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: eb4c4940-47ae-11ed-ac69-1239d0255272
+  password: 8b6ef530-5509-11ed-a54d-1239d0255272
   network: ws
   sni: idtj-herza.bonds.id
   skip-cert-verify: true
