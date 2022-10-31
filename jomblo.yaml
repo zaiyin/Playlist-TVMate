@@ -1,36 +1,36 @@
 proxies:
-- name: Weekly Trojan Howdy
+- name: Weekly Trojan Howdy 7D
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: ab519140-4c7d-11ed-b50d-1239d0255272
+  password: 41051300-58c9-11ed-9468-1239d0255272
   network: ws
-  sni: trojan2.udpgw.com
+  sni: trojan1.udpgw.com
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan2.udpgw.com
+    Host: trojan1.udpgw.com
 
-- name: Weekly V2Ray Howdy
+- name: Weekly V2Ray Howdy 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 70512e7c-aa62-443a-aed6-a83bc43f3ceb
+  uuid: 319e3438-3dd8-4d69-80ab-31fb4f3d4c7c
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: v2ray2.udpgw.com
+  servername: v2ray1.udpgw.com
   network: ws
   ws-opts:
     path: /howdy
     headers:
-      Host: v2ray2.udpgw.com
+      Host: v2ray1.udpgw.com
 
-- name: V2Ray SSHKIT
+- name: V2Ray SSHKIT 30D
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -47,7 +47,7 @@ proxies:
     headers:
       Host: sg1-v2ray.sshkit.org
 
-- name: V2Ray SG UDPGW
+- name: V2Ray SG UDPGW 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -60,11 +60,11 @@ proxies:
   servername: sg3.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/basapp/6354b69e11a79/
+    path: /fastssh/momon/635f3dd143c63/
     headers:
       Host: sg3.v2-ray.com
 
-- name: V2Ray Singapore HE-1
+- name: V2Ray Singapore HE-1 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -77,11 +77,11 @@ proxies:
   servername: sg1.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/heherrr/6354b740b1bd7/
+    path: /fastssh/vweve/635f3d9445a4a/
     headers:
       Host: sg1.v2-ray.com
 
-- name: V2Ray Singapore HE-2
+- name: V2Ray Singapore HE-2 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -94,11 +94,11 @@ proxies:
   servername: sg2.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/laluu/6354b6f67bb5f/
+    path: /fastssh/couook/635f3d4358da0/
     headers:
       Host: sg2.v2-ray.com
 
-- name: V2Ray Indonesia IKD
+- name: V2Ray Indonesia IKD 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -111,11 +111,11 @@ proxies:
   servername: id-ikd.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/fghtfyggg/6354ba2ca24d7/
+    path: /fastssh/buookfgh/635f3e958f082/
     headers:
       Host: id-ikd.v2-ray.com
       
-- name: V2Ray Indonesia Herza
+- name: V2Ray Indonesia Herza 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -128,7 +128,7 @@ proxies:
   servername: id-herza.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/bebekkk/6354ba61c2ec1/
+    path: /fastssh/hezza/635f3e55e9bae/
     headers:
       Host: id-herza.v2-ray.com
 
