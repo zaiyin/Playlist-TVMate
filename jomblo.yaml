@@ -111,7 +111,7 @@ proxies:
   servername: id-ikd.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/buookfgh/635f3e958f082/
+    path: /fastssh/fiktorrr/636778887bc0d/
     headers:
       Host: id-ikd.v2-ray.com
       
@@ -119,7 +119,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: e715caca-c520-4388-bfc0-09707170867a
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
   alterId: 0
   cipher: auto
   udp: true
@@ -128,7 +128,7 @@ proxies:
   servername: id-herza.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/hezza/635f3e55e9bae/
+    path: /fastssh/viktrrr/63677824d7b29/
     headers:
       Host: id-herza.v2-ray.com
 
@@ -167,7 +167,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: c1b95f80-5284-11ed-b134-225401db9d57
+  password: 8860b1e0-5db1-11ed-b031-225401db9d57
   network: ws
   sni: id-ikd.tjvpn.org
   skip-cert-verify: true
