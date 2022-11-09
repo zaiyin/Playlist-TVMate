@@ -17,18 +17,18 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 319e3438-3dd8-4d69-80ab-31fb4f3d4c7c
+  uuid: 03412975-16ea-43b9-8221-1537e03c1a4a
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: v2ray1.udpgw.com
+  servername: v2ray2.udpgw.com
   network: ws
   ws-opts:
     path: /howdy
     headers:
-      Host: v2ray1.udpgw.com
+      Host: v2ray2.udpgw.com
 
 - name: V2Ray SSHKIT 30D
   server: hynesconstruction.com
