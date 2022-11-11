@@ -29,6 +29,23 @@ proxies:
     path: /howdy
     headers:
       Host: v2ray2.udpgw.com
+      
+- name: V2Ray Last
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 4d128682-8a72-411a-8021-edca779def18
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sghe.batamerah.my.id
+  network: ws
+  ws-opts:
+    path: /batamerah
+    headers:
+      Host: sghe.batamerah.my.id
 
 - name: V2Ray SSHKIT 30D
   server: hynesconstruction.com
