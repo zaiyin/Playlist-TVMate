@@ -3,15 +3,15 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 41051300-58c9-11ed-9468-1239d0255272
+  password: 1fc87bb0-6163-11ed-addb-1239d0255272
   network: ws
-  sni: trojan1.udpgw.com
+  sni: trojan2.udpgw.com
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan1.udpgw.com
+    Host: trojan2.udpgw.com
 
 - name: Weekly V2Ray Howdy 7D
   server: hynesconstruction.com
