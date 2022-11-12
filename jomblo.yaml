@@ -22,7 +22,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: v2ray2.udpgw.com
   network: ws
   ws-opts:
@@ -39,7 +39,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: false
+  skip-cert-verify: true
   servername: sghe.batamerah.my.id
   network: ws
   ws-opts:
