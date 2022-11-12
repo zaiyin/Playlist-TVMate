@@ -56,7 +56,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: sg1-v2ray.sshkit.org
   network: ws
   ws-opts:
