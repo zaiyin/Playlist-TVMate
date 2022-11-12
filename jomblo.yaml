@@ -22,30 +22,13 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: false
+  skip-cert-verify: true
   servername: v2ray2.udpgw.com
   network: ws
   ws-opts:
     path: /howdy
     headers:
       Host: v2ray2.udpgw.com
-      
-- name: V2Ray Last
-  server: hynesconstruction.com
-  port: 2096
-  type: vmess
-  uuid: f312c3a1-4121-408e-9390-83730c4df5ba
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: sg-do.ujicoba.tech
-  network: ws
-  ws-opts:
-    path: /xrayws
-    headers:
-      Host: sg-do.ujicoba.tech
 
 - name: V2Ray SSHKIT 30D
   server: hynesconstruction.com
@@ -115,236 +98,19 @@ proxies:
     headers:
       Host: sg2.v2-ray.com
 
-- name: V2Ray Indonesia IKD 7D
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id-ikd.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/fiktorrr/636778887bc0d/
-    headers:
-      Host: id-ikd.v2-ray.com
-      
-- name: V2Ray Indonesia Herza 7D
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: id-herza.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh/viktrrr/63677824d7b29/
-    headers:
-      Host: id-herza.v2-ray.com
-
-- name: ID3 SSHOC
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 0cca4af7-c491-4923-8080-1e2d236ea5b4
-  network: ws
-  sni: idt3.sshocean.net
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /websocket
-  headers:
-    Host: idt3.sshocean.net
-
 - name: Dynamic SG Vultr
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: cc8398d4-0aa9-4de4-82b5-622361974f5e
+  uuid: a2e104a9-2cd7-4259-8e3f-3d5f5c554ea6
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: dynamic-sg3b.obfs.xyz
+  servername: dynamic-sg2b.obfs.xyz
   network: ws
   ws-opts:
     path: /fastssh
     headers:
-      Host: dynamic-sg3b.obfs.xyz
-
-- name: Fastssh Trojan ID
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 8860b1e0-5db1-11ed-b031-225401db9d57
-  network: ws
-  sni: id-ikd.tjvpn.org
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /fastssh
-  headers:
-    Host: id-ikd.tjvpn.org
-    
-- name: ID-IKD
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: bbbcc700-5509-11ed-ad17-1239d0255272
-  network: ws
-  sni: idtj-ikd.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: idtj-ikd.bonds.id
-
-- name: ID-Biz Banten
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: f4fddc40-5509-11ed-a7d3-1239d0255272
-  network: ws
-  sni: id5-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: id5-trojan.bonds.id
-
-- name: SG UDPGW
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 6fbecf00-5727-11ed-afb3-1239d0255272
-  network: ws
-  sni: sg8-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg8-trojan.bonds.id
-
-- name: SG Trojan Dual Stack
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: e1afb750-46a7-11ed-8754-1239d0255272
-  network: ws
-  sni: sg-atha.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg-atha.bonds.id
-    
-- name: SG HE-1
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: c6845be0-5727-11ed-8e3c-1239d0255272
-  network: ws
-  sni: sg1-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg1-trojan.bonds.id
-
-- name: SG HE-2
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 8a0c2360-5727-11ed-b506-1239d0255272
-  network: ws
-  sni: sg2-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg2-trojan.bonds.id
-
-- name: SG HE-3
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 9ce83ca0-5727-11ed-8180-1239d0255272
-  network: ws
-  sni: sg3-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg3-trojan.bonds.id
-
-- name: SG-HE MUX
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 4f627e10-5727-11ed-b7a9-1239d0255272
-  network: ws
-  sni: sg6-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg6-trojan.bonds.id
-
-- name: SG OVH
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: d9238050-5727-11ed-8eb3-1239d0255272
-  network: ws
-  sni: sgovh-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sgovh-trojan.bonds.id
-
-- name: ID-Herza
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 8b6ef530-5509-11ed-a54d-1239d0255272
-  network: ws
-  sni: idtj-herza.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: idtj-herza.bonds.id
-
-- name: US
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 56da83a0-4c7d-11ed-a3ce-1239d0255272
-  network: ws
-  sni: us-trojan.bonds.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: us-trojan.bonds.id
-
+      Host: dynamic-sg2b.obfs.xyz
