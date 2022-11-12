@@ -39,7 +39,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: sghe.batamerah.my.id
   network: ws
   ws-opts:
