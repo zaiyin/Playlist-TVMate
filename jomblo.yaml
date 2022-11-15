@@ -3,32 +3,32 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 1fc87bb0-6163-11ed-addb-1239d0255272
+  password: 13b5f820-64db-11ed-a9a1-1239d0255272
   network: ws
-  sni: trojan2.udpgw.com
+  sni: trojan3.udpgw.com
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan2.udpgw.com
+    Host: trojan3.udpgw.com
 
 - name: Weekly V2Ray Howdy 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 03412975-16ea-43b9-8221-1537e03c1a4a
+  uuid: 9dad8ab6-2401-4b4d-806c-13a032e0bfdc
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: v2ray2.udpgw.com
+  servername: v2ray3.udpgw.com
   network: ws
   ws-opts:
-    path: /howdy
+    path: /worryfree
     headers:
-      Host: v2ray2.udpgw.com
+      Host: v2ray3.udpgw.com
 
 - name: V2Ray SSHKIT 30D
   server: hynesconstruction.com
