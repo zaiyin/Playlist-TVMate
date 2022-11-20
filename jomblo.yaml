@@ -68,7 +68,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 698f55cc-d74a-4c90-bf69-973b3b67674e
+  uuid: b9296a34-8c1d-4232-b7f7-456ac8117303
   alterId: 0
   cipher: auto
   udp: true
@@ -77,7 +77,7 @@ proxies:
   servername: sg1.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/jehehehe/6370d9c02bf3d/
+    path: /fastssh/lakmpuu/637abd7594b31/
     headers:
       Host: sg1.v2-ray.com
 
