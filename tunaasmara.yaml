@@ -2,10 +2,14 @@ proxies:
 - name: LB ID
   server: hynesconstruction.com
   port: 443
-  type: trojan
-  password: 6fea1649-425b-4092-bf53-29792152c925
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: id-lb.vhax.net
   network: ws
-  sni: id-lb.vhax.net
   skip-cert-verify: true
   udp: true
   ws-opts:
