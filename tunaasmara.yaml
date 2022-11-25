@@ -8,13 +8,13 @@ proxies:
   cipher: auto
   udp: true
   tls: true
+  skip-cert-verify: true
   servername: id-lb.vhax.net
   network: ws
-  skip-cert-verify: true
   ws-opts:
     path: /sshkit/zaiyin/638082cbc0c5c/
-  headers:
-    Host: id-lb.vhax.net
+    headers:
+      Host: id-lb.vhax.net
     
 - name: ID-IKD
   server: hynesconstruction.com
