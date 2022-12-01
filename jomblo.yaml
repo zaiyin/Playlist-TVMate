@@ -45,21 +45,21 @@ proxies:
       Host: v2ray1.udpgw.com
       
 - name: Dynamic SG Vultr
-    server: hynesconstruction.com
-    port: 443
-    type: vmess
-    uuid: c31c94a1-303b-4dd0-a0f7-1bdecc3da436
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dynamic-sg1b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg1b.obfs.xyz
-    udp: true
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: c31c94a1-303b-4dd0-a0f7-1bdecc3da436
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: dynamic-sg1b.obfs.xyz
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: dynamic-sg1b.obfs.xyz
+  udp: true
     
 - name: V2Ray SG UDPGW 7D
   server: hynesconstruction.com
@@ -128,4 +128,3 @@ proxies:
     path: /sshkit/401452697/635b464921141/
     headers:
       Host: sg1-v2ray.sshkit.org
-
