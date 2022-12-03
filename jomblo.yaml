@@ -1,19 +1,5 @@
-proxies:
+proxies:  
 - name: Weekly Trojan Howdy 7D
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 13b5f820-64db-11ed-a9a1-1239d0255272
-  network: ws
-  sni: trojan3.udpgw.com
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: trojan3.udpgw.com
-    
-- name: Weekly Trojan Howdy 7Da
   server: hynesconstruction.com
   port: 443
   type: trojan
