@@ -34,7 +34,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: c31c94a1-303b-4dd0-a0f7-1bdecc3da436
+  uuid: 8a03dce3-3c8f-4785-be8d-bc8a832d0884
   alterId: 0
   cipher: auto
   tls: true
@@ -51,7 +51,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  uuid: 7a2fb3d0-780c-11ed-b937-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
@@ -60,7 +60,7 @@ proxies:
   servername: sg3.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/gilaaasaa/637abc7ae7ea5/
+    path: /fastssh
     headers:
       Host: sg3.v2-ray.com
 
@@ -68,7 +68,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: b9296a34-8c1d-4232-b7f7-456ac8117303
+  uuid: 188843b0-780d-11ed-b434-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
@@ -77,7 +77,7 @@ proxies:
   servername: sg1.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/lakmpuu/637abd7594b31/
+    path: /fastssh
     headers:
       Host: sg1.v2-ray.com
 
@@ -85,7 +85,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: ff382d09-becd-41cb-8e4f-3e256b27de47
+  uuid: d47b3f90-780c-11ed-b335-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
@@ -94,7 +94,7 @@ proxies:
   servername: sg2.v2-ray.com
   network: ws
   ws-opts:
-    path: /fastssh/punkkk/637abce70ad77/
+    path: /fastssh
     headers:
       Host: sg2.v2-ray.com
 
