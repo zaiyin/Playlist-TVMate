@@ -6,7 +6,7 @@ proxies:
   password: 706e2a70-7c62-11ed-af60-1239d0255272
   network: ws
   sni: trojan2.udpgw.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -17,46 +17,46 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: d728a195-d5fc-43c4-b1cc-463b24d66668
+  uuid: d8c4efa8-88cf-4321-9bf3-bbbdc4d2c5b9
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
-  servername: v2ray1.udpgw.com
+  skip-cert-verify: false
+  servername: v2ray2.udpgw.com
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: v2ray1.udpgw.com
+      Host: v2ray2.udpgw.com
       
 - name: Dynamic SG Vultr
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 8a03dce3-3c8f-4785-be8d-bc8a832d0884
+  uuid: 67c971d5-3cbe-44f6-a24c-4165c7900f1b
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
-  servername: dynamic-sg1b.obfs.xyz
+  skip-cert-verify: false
+  servername: dynamic-sg2b.obfs.xyz
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: dynamic-sg1b.obfs.xyz
+      Host: dynamic-sg2b.obfs.xyz
   udp: true
     
 - name: V2Ray SG UDPGW 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 7a2fb3d0-780c-11ed-b937-205c6d5f5d78
+  uuid: 4f73aa70-7e53-11ed-b636-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: sg3.v2-ray.com
   network: ws
   ws-opts:
@@ -68,29 +68,29 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 188843b0-780d-11ed-b434-205c6d5f5d78
+  uuid: ad036050-7e53-11ed-b731-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
-  servername: sg1.v2-ray.com
+  skip-cert-verify: false
+  servername: sg-he1.vmess.sbs
   network: ws
   ws-opts:
     path: /fastssh
     headers:
-      Host: sg1.v2-ray.com
+      Host: sg-he1.vmess.sbs
 
 - name: V2Ray Singapore HE-2 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: d47b3f90-780c-11ed-b335-205c6d5f5d78
+  uuid: 73839aa0-7e53-11ed-b339-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: sg2.v2-ray.com
   network: ws
   ws-opts:
@@ -107,7 +107,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: sg1-v2ray.sshkit.org
   network: ws
   ws-opts:
