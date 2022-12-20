@@ -8,7 +8,7 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: id-lb.vhax.net
   network: ws
   ws-opts:
@@ -23,7 +23,7 @@ proxies:
   password: 265d2f60-6a44-11ed-8027-1239d0255272
   network: ws
   sni: idtj-ikd.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -37,7 +37,7 @@ proxies:
   password: f4fddc40-5509-11ed-a7d3-1239d0255272
   network: ws
   sni: id5-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -51,7 +51,7 @@ proxies:
   password: 6fbecf00-5727-11ed-afb3-1239d0255272
   network: ws
   sni: sg8-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -65,7 +65,7 @@ proxies:
   password: e1afb750-46a7-11ed-8754-1239d0255272
   network: ws
   sni: sg-atha.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -79,7 +79,7 @@ proxies:
   password: c6845be0-5727-11ed-8e3c-1239d0255272
   network: ws
   sni: sg1-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -93,7 +93,7 @@ proxies:
   password: 8a0c2360-5727-11ed-b506-1239d0255272
   network: ws
   sni: sg2-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -107,7 +107,7 @@ proxies:
   password: 9ce83ca0-5727-11ed-8180-1239d0255272
   network: ws
   sni: sg3-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -121,7 +121,7 @@ proxies:
   password: 4f627e10-5727-11ed-b7a9-1239d0255272
   network: ws
   sni: sg6-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -135,7 +135,7 @@ proxies:
   password: d9238050-5727-11ed-8eb3-1239d0255272
   network: ws
   sni: sgovh-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -149,7 +149,7 @@ proxies:
   password: 4365c040-6a44-11ed-aafc-1239d0255272
   network: ws
   sni: idtj-herza.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
@@ -163,7 +163,7 @@ proxies:
   password: 56da83a0-4c7d-11ed-a3ce-1239d0255272
   network: ws
   sni: us-trojan.bonds.id
-  skip-cert-verify: true
+  skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
