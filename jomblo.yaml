@@ -1,6 +1,6 @@
 proxies:  
 - name: Weekly Trojan Howdy 7D
-  server: 104.18.21.226
+  server: 104.26.4.10
   port: 443
   type: trojan
   password: 706e2a70-7c62-11ed-af60-1239d0255272
@@ -14,7 +14,7 @@ proxies:
     Host: trojan2.udpgw.com
 
 - name: Weekly V2Ray Howdy 7D
-  server: 104.18.21.226
+  server: 104.26.4.10
   port: 443
   type: vmess
   uuid: d8c4efa8-88cf-4321-9bf3-bbbdc4d2c5b9
@@ -31,7 +31,7 @@ proxies:
       Host: v2ray2.udpgw.com
       
 - name: Dynamic SG Vultr
-  server: 104.18.21.226
+  server: 104.26.4.10
   port: 443
   type: vmess
   uuid: 67c971d5-3cbe-44f6-a24c-4165c7900f1b
@@ -48,7 +48,7 @@ proxies:
   udp: true
     
 - name: V2Ray SG UDPGW 7D
-  server: 104.18.21.226
+  server: hynesconstruction.com
   port: 443
   type: vmess
   uuid: 4f73aa70-7e53-11ed-b636-205c6d5f5d78
@@ -65,7 +65,7 @@ proxies:
       Host: sg3.v2-ray.com
 
 - name: V2Ray Singapore HE-1 7D
-  server: 104.18.21.226
+  server: hynesconstruction.com
   port: 443
   type: vmess
   uuid: ad036050-7e53-11ed-b731-205c6d5f5d78
@@ -82,7 +82,7 @@ proxies:
       Host: sg-he1.vmess.sbs
 
 - name: V2Ray Singapore HE-2 7D
-  server: 104.18.21.226
+  server: hynesconstruction.com
   port: 443
   type: vmess
   uuid: 73839aa0-7e53-11ed-b339-205c6d5f5d78
