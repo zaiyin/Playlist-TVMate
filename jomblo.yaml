@@ -1,6 +1,6 @@
 proxies:  
 - name: Weekly Trojan Howdy 7D
-  server: cdn.appsflyer.com
+  server: hynesconstruction.com
   port: 443
   type: trojan
   password: 706e2a70-7c62-11ed-af60-1239d0255272
@@ -14,7 +14,7 @@ proxies:
     Host: trojan2.udpgw.com
 
 - name: Weekly V2Ray Howdy 7D
-  server: cdn.appsflyer.com
+  server: hynesconstruction.com
   port: 443
   type: vmess
   uuid: d8c4efa8-88cf-4321-9bf3-bbbdc4d2c5b9
@@ -31,7 +31,7 @@ proxies:
       Host: v2ray2.udpgw.com
       
 - name: Dynamic SG Vultr
-  server: cdn.appsflyer.com
+  server: hynesconstruction.com
   port: 443
   type: vmess
   uuid: 67c971d5-3cbe-44f6-a24c-4165c7900f1b
