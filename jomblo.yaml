@@ -1,4 +1,21 @@
 proxies:      
+- name: VMess Indonesia IKD
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 61e882e0-8053-11ed-b537-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: id-ikd.vmess.sbs
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: id-ikd.vmess.sbs
+      
 - name: V2Ray SG UDPGW 7D
   server: 104.17.3.81
   port: 443
