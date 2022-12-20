@@ -1,6 +1,6 @@
 proxies:
 - name: LB ID
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: vmess
   uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -17,7 +17,7 @@ proxies:
       Host: id-lb.vhax.net
     
 - name: ID-IKD
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: 265d2f60-6a44-11ed-8027-1239d0255272
@@ -31,7 +31,7 @@ proxies:
     Host: idtj-ikd.bonds.id
 
 - name: ID-Biz Banten
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: f4fddc40-5509-11ed-a7d3-1239d0255272
@@ -45,7 +45,7 @@ proxies:
     Host: id5-trojan.bonds.id
 
 - name: SG UDPGW
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: 6fbecf00-5727-11ed-afb3-1239d0255272
@@ -59,7 +59,7 @@ proxies:
     Host: sg8-trojan.bonds.id
 
 - name: SG Trojan Dual Stack
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: e1afb750-46a7-11ed-8754-1239d0255272
@@ -73,7 +73,7 @@ proxies:
     Host: sg-atha.bonds.id
     
 - name: SG HE-1
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: c6845be0-5727-11ed-8e3c-1239d0255272
@@ -87,7 +87,7 @@ proxies:
     Host: sg1-trojan.bonds.id
 
 - name: SG HE-2
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: 8a0c2360-5727-11ed-b506-1239d0255272
@@ -101,7 +101,7 @@ proxies:
     Host: sg2-trojan.bonds.id
 
 - name: SG HE-3
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: 9ce83ca0-5727-11ed-8180-1239d0255272
@@ -115,7 +115,7 @@ proxies:
     Host: sg3-trojan.bonds.id
 
 - name: SG-HE MUX
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: 4f627e10-5727-11ed-b7a9-1239d0255272
@@ -129,7 +129,7 @@ proxies:
     Host: sg6-trojan.bonds.id
 
 - name: SG OVH
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: d9238050-5727-11ed-8eb3-1239d0255272
@@ -143,7 +143,7 @@ proxies:
     Host: sgovh-trojan.bonds.id
 
 - name: ID-Herza
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: 4365c040-6a44-11ed-aafc-1239d0255272
@@ -157,7 +157,7 @@ proxies:
     Host: idtj-herza.bonds.id
 
 - name: US
-  server: cdn.appsflyer.com
+  server: 104.18.21.226
   port: 443
   type: trojan
   password: 56da83a0-4c7d-11ed-a3ce-1239d0255272
