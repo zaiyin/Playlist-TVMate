@@ -16,6 +16,23 @@ proxies:
     headers:
       Host: id-ikd.vmess.sbs
       
+- name: VMess Singapore Contabo
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: d7de2be0-8053-11ed-b430-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: sg-contabo.vmess.sbs
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: sg-contabo.vmess.sbs
+      
 - name: V2Ray SG UDPGW 7D
   server: 104.17.3.81
   port: 443
