@@ -34,7 +34,7 @@ proxies:
       Host: sg-contabo.vmess.sbs
       
 - name: V2Ray SG UDPGW 7D
-  server: 104.17.3.81
+  server: hynesconstruction.com
   port: 443
   type: vmess
   uuid: 4f73aa70-7e53-11ed-b636-205c6d5f5d78
