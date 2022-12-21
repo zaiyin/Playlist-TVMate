@@ -1,38 +1,46 @@
 proxies:      
-- name: VMess Indonesia IKD
+- name: SG-HE 3
   server: hynesconstruction.com
   port: 443
-  type: vmess
-  uuid: 61e882e0-8053-11ed-b537-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: id-ikd.vmess.sbs
+  type: trojan
+  password: 4e9fcf70-8109-11ed-8593-1239d0255272
   network: ws
+  sni: sg3-trojan.bonds.id
+  skip-cert-verify: false
+  udp: true
   ws-opts:
-    path: /fastssh
-    headers:
-      Host: id-ikd.vmess.sbs
-      
-- name: VMess Singapore Contabo
+    path: /howdy
+  headers:
+    Host: sg3-trojan.bonds.id
+    
+- name: SG-HE MUX
   server: hynesconstruction.com
   port: 443
-  type: vmess
-  uuid: d7de2be0-8053-11ed-b430-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: sg-contabo.vmess.sbs
+  type: trojan
+  password: 78fb97f0-8109-11ed-9087-1239d0255272
   network: ws
+  sni: sg6-trojan.bonds.id
+  skip-cert-verify: false
+  udp: true
   ws-opts:
-    path: /fastssh
-    headers:
-      Host: sg-contabo.vmess.sbs
-      
+    path: /howdy
+  headers:
+    Host: sg6-trojan.bonds.id
+    
+- name: SG Trojan OVH
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 9aea1a60-8109-11ed-94e2-1239d0255272
+  network: ws
+  sni: sgovh-trojan.bonds.id
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: sgovh-trojan.bonds.id
+    
 - name: V2Ray SG UDPGW 7D
   server: hynesconstruction.com
   port: 443
@@ -49,23 +57,6 @@ proxies:
     path: /fastssh
     headers:
       Host: sg3.v2-ray.com
-
-- name: V2Ray Singapore HE-1 7D
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: ad036050-7e53-11ed-b731-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: sg-he1.vmess.sbs
-  network: ws
-  ws-opts:
-    path: /fastssh
-    headers:
-      Host: sg-he1.vmess.sbs
 
 - name: V2Ray Singapore HE-2 7D
   server: hynesconstruction.com
