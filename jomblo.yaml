@@ -1,4 +1,18 @@
-proxies:      
+proxies:     
+- name: Weekly Trojan Account
+  server: hynesconstruction.com
+  port: 80
+  type: trojan
+  password: 7def8860-8253-11ed-ac77-1239d0255272
+  network: ws
+  sni: trojan3.udpgw.com
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan3.udpgw.com
+    
 - name: SG-HE 3
   server: hynesconstruction.com
   port: 443
