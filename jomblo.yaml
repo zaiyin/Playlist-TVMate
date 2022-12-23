@@ -1,20 +1,20 @@
 proxies:     
-- name: Weekly Vmess Account
+- name: ID IKD V2Ray
   server: hynesconstruction.com
   port: 80
   type: vmess
-  uuid: 23e1dc92-79ca-47c5-b1fd-07068ae5d8d7
+  uuid: 0f026920-8257-11ed-b233-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: v2ray3.udpgw.com
+  servername: id-ikd.vmess.sbs
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: v2ray3.udpgw.com
+      Host: id-ikd.vmess.sbs
     
 - name: SG-HE 3
   server: hynesconstruction.com
