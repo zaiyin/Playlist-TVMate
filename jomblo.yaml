@@ -58,22 +58,22 @@ proxies:
   headers:
     Host: sgovh-trojan.bonds.id
     
-- name: VMess Singapore Contabo 7D
+- name: VMess Singapore AMP 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 9610f9c0-8432-11ed-b331-205c6d5f5d78
+  uuid: 0aa454c0-8433-11ed-b139-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: sg-contabo.vmess.sbs
+  servername: sg-amp.vmess.sbs
   network: ws
   ws-opts:
     path: /fastssh
     headers:
-      Host: sg-contabo.vmess.sbs
+      Host:sg-amp.vmess.sbs
 
 - name: V2Ray Singapore HE-2 7D
   server: hynesconstruction.com
