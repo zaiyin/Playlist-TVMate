@@ -1,7 +1,7 @@
 proxies:     
 - name: ID IKD V2Ray
   server: hynesconstruction.com
-  port: 80
+  port: 443
   type: vmess
   uuid: 0f026920-8257-11ed-b233-205c6d5f5d78
   alterId: 0
@@ -58,28 +58,28 @@ proxies:
   headers:
     Host: sgovh-trojan.bonds.id
     
-- name: V2Ray SG UDPGW 7D
+- name: VMess Singapore Contabo 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 4f73aa70-7e53-11ed-b636-205c6d5f5d78
+  uuid: 9610f9c0-8432-11ed-b331-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: sg3.v2-ray.com
+  servername: sg-contabo.vmess.sbs
   network: ws
   ws-opts:
     path: /fastssh
     headers:
-      Host: sg3.v2-ray.com
+      Host: sg-contabo.vmess.sbs
 
 - name: V2Ray Singapore HE-2 7D
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 73839aa0-7e53-11ed-b339-205c6d5f5d78
+  uuid: 37e52dc0-8432-11ed-b638-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
