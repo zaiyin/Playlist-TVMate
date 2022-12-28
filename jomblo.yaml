@@ -1,20 +1,17 @@
 proxies:     
-- name: ID IKD V2Ray
+- name: Weekly Trojan Account
   server: hynesconstruction.com
   port: 443
-  type: vmess
-  uuid: 0f026920-8257-11ed-b233-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: id-ikd.vmess.sbs
+  type: trojan
+  password: 514789f0-864f-11ed-bae4-1239d0255272
   network: ws
+  sni: trojan3.udpgw.com
+  skip-cert-verify: false
+  udp: true
   ws-opts:
-    path: /fastssh
-    headers:
-      Host: id-ikd.vmess.sbs
+    path: /howdy
+  headers:
+    Host: trojan3.udpgw.com
     
 - name: SG-HE 3
   server: hynesconstruction.com
@@ -58,22 +55,19 @@ proxies:
   headers:
     Host: sgovh-trojan.bonds.id
     
-- name: VMess Singapore AMP 7D
+- name: SG-HE 2 Trojan
   server: hynesconstruction.com
   port: 443
-  type: vmess
-  uuid: 0aa454c0-8433-11ed-b139-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: sg-amp.vmess.sbs
+  type: trojan
+  password: 1a0a3740-864f-11ed-8d2a-1239d0255272
   network: ws
+  sni: sg2-trojan.bonds.id
+  skip-cert-verify: false
+  udp: true
   ws-opts:
-    path: /fastssh
-    headers:
-      Host: sg-amp.vmess.sbs
+    path: /howdy
+  headers:
+    Host: sg2-trojan.bonds.id
 
 - name: V2Ray Singapore HE-2 7D
   server: hynesconstruction.com
