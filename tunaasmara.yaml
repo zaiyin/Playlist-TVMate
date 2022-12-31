@@ -28,4 +28,3 @@ proxies:
       path: /howdy
     headers:
       Host: idtj-herza.bonds.id
-    udp: true
