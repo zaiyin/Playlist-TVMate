@@ -14,37 +14,18 @@ proxies:
       headers:
         Host: sg1.vless.co
     udp: true
-    
-  - name: id-ikd.vmess.sbs
+
+  - name: idtj-herza.bonds.id
     server: hynesconstruction.com
     port: 443
-    type: vmess
-    uuid: bc510070-88b3-11ed-b839-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-ikd.vmess.sbs
+    type: trojan
+    password: 12438f70-88b6-11ed-a7d5-1239d0255272
     network: ws
-    ws-opts:
-      path: /fastssh
-      headers:
-        Host: id-ikd.vmess.sbs
+    sni: idtj-herza.bonds.id
+    skip-cert-verify: false
     udp: true
-    
-  - name: id-herza.vmess.sbs
-    server: hynesconstruction.com
-    port: 443
-    type: vmess
-    uuid: ed3eeea0-88b3-11ed-b838-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-herza.vmess.sbs
-    network: ws
     ws-opts:
-      path: /fastssh
-      headers:
-        Host: id-herza.vmess.sbs
+      path: /howdy
+    headers:
+      Host: idtj-herza.bonds.id
     udp: true
