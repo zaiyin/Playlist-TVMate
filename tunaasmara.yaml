@@ -1,42 +1,50 @@
 proxies:    
-- name: SG-HE MUX
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: 42889da0-8058-11ed-be28-1239d0255272
-  network: ws
-  sni: sg6-trojan.bonds.id
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg6-trojan.bonds.id
+  - name: sg1.vless.co
+    server: hynesconstruction.com
+    port: 443
+    type: vless
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1.vless.co
+    network: ws
+    ws-opts:
+      path: /fastssh/ranjatasas/63af9f650a6e2/
+      headers:
+        Host: sg1.vless.co
+    udp: true
     
-- name: SG-HE 3
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: 2b3eb290-8059-11ed-a00a-1239d0255272
-  network: ws
-  sni: sg3-trojan.bonds.id
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg3-trojan.bonds.id
+  - name: id-ikd.vmess.sbs
+    server: hynesconstruction.com
+    port: 443
+    type: vmess
+    uuid: bc510070-88b3-11ed-b839-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-ikd.vmess.sbs
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: id-ikd.vmess.sbs
+    udp: true
     
-- name: ID Herza Trojan
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: 24b5f4f0-8059-11ed-997b-1239d0255272
-  network: ws
-  sni: idtj-herza.bonds.id
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: idtj-herza.bonds.id
+  - name: id-herza.vmess.sbs
+    server: hynesconstruction.com
+    port: 443
+    type: vmess
+    uuid: ed3eeea0-88b3-11ed-b838-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-herza.vmess.sbs
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: id-herza.vmess.sbs
+    udp: true
