@@ -1,17 +1,20 @@
 proxies:     
-- name: Weekly Trojan Account
+- name: Weekly V2Ray Account
   server: hynesconstruction.com
   port: 443
-  type: trojan
-  password: fa5f7a60-88b1-11ed-8dc2-1239d0255272
-  network: ws
-  sni: trojan1.udpgw.com
-  skip-cert-verify: false
+  type: vmess
+  uuid: a5efa9d4-832f-4b9e-a545-4d0fffe316ff
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: v2ray1.udpgw.com
+  network: ws
   ws-opts:
-    path: /howdy
-  headers:
-    Host: trojan1.udpgw.com
+    path: /worryfree
+    headers:
+      Host: v2ray1.udpgw.com
     
 - name: SG-HE 3
   server: hynesconstruction.com
