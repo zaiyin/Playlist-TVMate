@@ -15,6 +15,40 @@ proxies:
     path: /worryfree
     headers:
       Host: v2ray1.udpgw.com
+      
+- name: Dynamic SG Vultr
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 364ff553-a6d9-4727-9eb6-9f3d46448e76
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: dynamic-sg1b.obfs.xyz
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: dynamic-sg1b.obfs.xyz
+      
+- name: VMess Singapore Contabo
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 7745c640-8e84-11ed-b831-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: sg-contabo.vmess.sbs
+  network: ws
+  ws-opts:
+    path: /fastssh
+    headers:
+      Host: sg-contabo.vmess.sbs
     
 - name: SG-HE 3
   server: hynesconstruction.com
@@ -71,23 +105,6 @@ proxies:
     path: /howdy
   headers:
     Host: sg2-trojan.bonds.id
-
-- name: V2Ray Singapore HE-2 7D
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 24b6a090-88b3-11ed-b536-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: sg2.v2-ray.com
-  network: ws
-  ws-opts:
-    path: /fastssh
-    headers:
-      Host: sg2.v2-ray.com
 
 - name: V2Ray SSHKIT 30D
   server: hynesconstruction.com
