@@ -29,16 +29,16 @@ proxies:
     headers:
       Host: idtj-herza.bonds.id
 
-  - name: idtj-ikd.bonds.id
+  - name: id-ikd.tjvpn.org
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: f1463a50-8dad-11ed-b998-1239d0255272
+    password: 0a2a3170-8eec-11ed-b331-225401db9d57
     network: ws
-    sni: idtj-ikd.bonds.id
+    sni: id-ikd.tjvpn.org
     skip-cert-verify: false
     udp: true
     ws-opts:
-      path: /howdy
+      path: /fastssh
     headers:
-      Host: idtj-ikd.bonds.id
+      Host: id-ikd.tjvpn.org
