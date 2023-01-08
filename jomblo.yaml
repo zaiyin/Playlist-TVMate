@@ -33,22 +33,22 @@ proxies:
     headers:
       Host: dynamic-sg1b.obfs.xyz
       
-- name: VMess Singapore Contabo
+- name: V2Ray Singapore AMP
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 7745c640-8e84-11ed-b831-205c6d5f5d78
+  uuid: ba485690-8ee9-11ed-b133-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: sg-contabo.vmess.sbs
+  servername: sg-atha.v2-ray.com
   network: ws
   ws-opts:
     path: /fastssh
     headers:
-      Host: sg-contabo.vmess.sbs
+      Host: sg-atha.v2-ray.com
     
 - name: SG-HE 3
   server: hynesconstruction.com
