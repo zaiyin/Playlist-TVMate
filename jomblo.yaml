@@ -1,43 +1,57 @@
 proxies:     
-- name: Weekly V2Ray Account
+- name: Weekly V2Ray
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: a5efa9d4-832f-4b9e-a545-4d0fffe316ff
+  uuid: c6d99e98-ad2b-4340-bbc8-ba4775982e33
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: v2ray1.udpgw.com
+  servername: v2ray3.udpgw.com
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: v2ray1.udpgw.com
+      Host: v2ray3.udpgw.com
+      
+- name: Weekly Trojan
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: bd5eec90-9469-11ed-b128-1239d0255272
+  network: ws
+  sni: trojan3.udpgw.com
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan3.udpgw.com
       
 - name: Dynamic SG Vultr
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 364ff553-a6d9-4727-9eb6-9f3d46448e76
+  uuid: 44f2b093-e90d-402a-8683-05a191ee5f94
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: dynamic-sg1b.obfs.xyz
+  servername: dynamic-sg3b.obfs.xyz
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: dynamic-sg1b.obfs.xyz
+      Host: dynamic-sg3b.obfs.xyz
       
 - name: V2Ray Singapore AMP
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: ba485690-8ee9-11ed-b133-205c6d5f5d78
+  uuid: 44238980-946a-11ed-b835-205c6d5f5d78
   alterId: 0
   cipher: auto
   udp: true
