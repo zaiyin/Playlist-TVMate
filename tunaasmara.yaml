@@ -10,7 +10,7 @@ proxies:
     servername: sg1.vless.co
     network: ws
     ws-opts:
-      path: /fastssh/ranjatasas/63af9f650a6e2/
+      path: /fastssh/tuyrasas/63cb5c72d8b29/
       headers:
         Host: sg1.vless.co
     udp: true
