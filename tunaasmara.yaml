@@ -15,20 +15,20 @@ proxies:
         Host: sg1.vless.co
     udp: true
     
-  - name: id1-ws.xvless.xyz
+  - name: sshocean-id5
     server: hynesconstruction.com
     port: 443
     type: vless
-    uuid: 03cf327c-b8e7-4582-b359-38bd4baff119
+    uuid: d248a06f-120d-4f2a-857c-66d05f714b46
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
+    servername: id5-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: id1-ws.xvless.xyz
+        Host: id5-ws.xvless.xyz
     udp: true
 
   - name: idtj-herza.bonds.id
