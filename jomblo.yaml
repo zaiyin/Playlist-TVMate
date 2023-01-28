@@ -1,18 +1,4 @@
-proxies:          
-- name: Weekly Trojan
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: a0618860-9ef8-11ed-b988-1239d0255272
-  network: ws
-  sni: trojan1.udpgw.com
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: trojan1.udpgw.com
-   
+proxies:             
 - name: Weekly V2Ray
   server: hynesconstruction.com
   port: 443
@@ -29,6 +15,20 @@ proxies:
     path: /worryfree
     headers:
       Host: v2ray1.udpgw.com
+      
+- name: Weekly Trojan
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: a0618860-9ef8-11ed-b988-1239d0255272
+  network: ws
+  sni: trojan1.udpgw.com
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan1.udpgw.com
       
 - name: Dynamic SG Vultr
   server: hynesconstruction.com
