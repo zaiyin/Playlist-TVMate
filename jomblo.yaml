@@ -3,49 +3,49 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: bd5eec90-9469-11ed-b128-1239d0255272
+  password: a0618860-9ef8-11ed-b988-1239d0255272
   network: ws
-  sni: trojan3.udpgw.com
+  sni: trojan1.udpgw.com
   skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan3.udpgw.com
+    Host: trojan1.udpgw.com
+   
+- name: Weekly V2Ray
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 82eef6b9-82b4-405d-9181-ce4aefbc7344
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: v2ray1.udpgw.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: v2ray1.udpgw.com
       
 - name: Dynamic SG Vultr
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 78fa676e-4c14-46ce-9520-c5cf7631d438
+  uuid: e82cc3e2-571c-43f1-81a6-2ca24f4142dc
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: dynamic-sg3b.obfs.xyz
+  servername: dynamic-sg1b.obfs.xyz
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: dynamic-sg3b.obfs.xyz
-      
-- name: Vmess Singapore HE-1
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: dd625fa0-993a-11ed-b036-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  servername: sg-1.0rd.net
-  network: ws
-  ws-opts:
-    path: /fastssh
-    headers:
-      Host: sg-1.0rd.net 
+      Host: dynamic-sg1b.obfs.xyz
     
 - name: SG-HE MUX
   server: hynesconstruction.com
