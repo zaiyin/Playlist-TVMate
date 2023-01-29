@@ -1,60 +1,46 @@
-proxies:    
-  - name: sg1.vless.co
+proxies:   
+  - name: sg1.v2vless.xyz
     server: hynesconstruction.com
     port: 443
     type: vless
-    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    uuid: ef99ecc7-1327-4f0b-a256-733c929bf11f
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1.vless.co
+    servername: sg1.v2vless.xyz
     network: ws
     ws-opts:
-      path: /fastssh/tuyrasas/63cb5c72d8b29/
+      path: /vless
       headers:
-        Host: sg1.vless.co
+        Host: sg1.v2vless.xyz
     udp: true
     
-  - name: sshocean-id5
+  - name: id2-cf.v2vless.xyz
     server: hynesconstruction.com
     port: 443
     type: vless
-    uuid: d248a06f-120d-4f2a-857c-66d05f714b46
+    uuid: c29b9d15-90f6-4568-a8b3-faaeaafa3d01
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id5-ws.xvless.xyz
+    servername: id2-cf.v2vless.xyz
     network: ws
     ws-opts:
-      path: /websocket
+      path: /vless
       headers:
-        Host: id5-ws.xvless.xyz
+        Host: id2-cf.v2vless.xyz
     udp: true
 
-  - name: idtj-herza.bonds.id
+  - name: idt1.sshocean.net
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: cdc92080-8dad-11ed-a671-1239d0255272
+    password: 5511c69e-150c-486c-a96b-886bbc7b2de2
     network: ws
-    sni: idtj-herza.bonds.id
-    skip-cert-verify: false
-    udp: true
-    ws-opts:
-      path: /howdy
-    headers:
-      Host: idtj-herza.bonds.id
-
-  - name: idt3.sshocean.net
-    server: hynesconstruction.com
-    port: 443
-    type: trojan
-    password: fa362037-31a9-4a68-ad72-739483354667
-    network: ws
-    sni: idt3.sshocean.net
+    sni: idt1.sshocean.net
     skip-cert-verify: false
     udp: true
     ws-opts:
       path: /websocket
     headers:
-      Host: idt3.sshocean.net
+      Host: idt1.sshocean.net
