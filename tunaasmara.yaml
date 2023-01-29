@@ -14,6 +14,22 @@ proxies:
       headers:
         Host: sg1.v2vless.xyz
     udp: true
+
+  - name: id.vless1.xservs.xyz
+    server: hynesconstruction.com
+    port: 8443
+    type: vless
+    uuid: 093ac241-2433-49d7-b0c7-e3ed93dcd5ce
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.vless1.xservs.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id.vless1.xservs.xyz
+    udp: true
     
   - name: id2-cf.v2vless.xyz
     server: hynesconstruction.com
