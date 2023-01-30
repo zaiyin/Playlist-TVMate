@@ -1,57 +1,9 @@
 proxies:   
-  - name: sg1.v2vless.xyz
-    server: hynesconstruction.com
-    port: 443
-    type: vless
-    uuid: ef99ecc7-1327-4f0b-a256-733c929bf11f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg1.v2vless.xyz
-    udp: true
-
-  - name: id.vless1.xservs.xyz
-    server: hynesconstruction.com
-    port: 8443
-    type: vless
-    uuid: 093ac241-2433-49d7-b0c7-e3ed93dcd5ce
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id.vless1.xservs.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id.vless1.xservs.xyz
-    udp: true
-    
-  - name: id2-cf.v2vless.xyz
-    server: hynesconstruction.com
-    port: 443
-    type: vless
-    uuid: c29b9d15-90f6-4568-a8b3-faaeaafa3d01
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2-cf.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id2-cf.v2vless.xyz
-    udp: true
-
   - name: idt1.sshocean.net
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: 5511c69e-150c-486c-a96b-886bbc7b2de2
+    password: 505c18d5-5266-4f4a-9f5f-f510b9d9948c
     network: ws
     sni: idt1.sshocean.net
     skip-cert-verify: false
