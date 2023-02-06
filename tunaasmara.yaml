@@ -1,4 +1,18 @@
 proxies:   
+  - name: Trojan ID 01
+    server: hynesconstruction.com
+    port: 443
+    type: trojan
+    password: d6709d7e-8ccc-4a9f-8a65-6ad96280228a
+    network: ws
+    sni: idt1.sshocean.net
+    skip-cert-verify: false
+    udp: true
+    ws-opts:
+      path: /websocket
+    headers:
+      Host: idt1.sshocean.net
+      
   - name: ID Herza Trojan
     server: hynesconstruction.com
     port: 443
