@@ -1,17 +1,17 @@
 proxies:   
-  - name: Trojan ID
+  - name: Trojan ID 3D
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: d1ac5627-6eb9-4541-8346-ef875a9d7814
+    password: rammaaa
     network: ws
-    sni: idt2.sshocean.net
+    sni: trojan-ctb-us01.globalssh.xyz
     skip-cert-verify: false
     udp: true
     ws-opts:
-      path: /websocket
+      path: /trojan-ws
     headers:
-      Host: idt2.sshocean.net
+      Host: trojan-ctb-us01.globalssh.xyz
       
   - name: ID Herza Trojan
     server: hynesconstruction.com
