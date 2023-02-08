@@ -1,5 +1,5 @@
 proxies:             
-- name: Dynamic SG Vultr
+- name: Dynamic SG Vultr *
   server: hynesconstruction.com
   port: 443
   type: vmess
