@@ -3,18 +3,18 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: e82cc3e2-571c-43f1-81a6-2ca24f4142dc
+  uuid: af86b8b2-d562-4b46-9f24-6d0b400a7f08
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: dynamic-sg1b.obfs.xyz
+  servername: dynamic-sg2b.obfs.xyz
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: dynamic-sg1b.obfs.xyz
+      Host: dynamic-sg2b.obfs.xyz
 
 - name: Weekly V2Ray
   server: hynesconstruction.com
