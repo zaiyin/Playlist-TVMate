@@ -1,5 +1,5 @@
 proxies:             
-- name: Dynamic SG Vultr *
+- name: Dynamic SG Vultr
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -20,32 +20,32 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 82eef6b9-82b4-405d-9181-ce4aefbc7344
+  uuid: 2d666f66-fdd5-42a4-b3a0-8b38ad7b1842
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: v2ray1.udpgw.com
+  servername: v2ray2.udpgw.com
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: v2ray1.udpgw.com
+      Host: v2ray2.udpgw.com
       
 - name: Weekly Trojan
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: a0618860-9ef8-11ed-b988-1239d0255272
+  password: aaac6c80-a8e9-11ed-8335-1239d0255272
   network: ws
-  sni: trojan1.udpgw.com
+  sni: trojan2.udpgw.com
   skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan1.udpgw.com
+    Host: trojan2.udpgw.com
     
 - name: SG-HE MUX
   server: hynesconstruction.com
