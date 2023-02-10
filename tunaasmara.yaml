@@ -1,4 +1,20 @@
-proxies:   
+proxies:
+   - name: Vless
+    server: hynesconstruction.com
+    port: 443
+    type: vless
+    uuid: 168f3b0a-a4a8-4e74-9ebe-7daf5a4233d1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id4.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id4.v2vless.xyz
+    udp: true
+
   - name: Trojan ID 3D
     server: hynesconstruction.com
     port: 443
