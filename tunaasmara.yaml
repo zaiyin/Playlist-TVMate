@@ -11,7 +11,7 @@ proxies:
     network: ws
     ws-opts:
       path: /vless
-      headers:
+    headers:
         Host: id4.v2vless.xyz
     udp: true
 
