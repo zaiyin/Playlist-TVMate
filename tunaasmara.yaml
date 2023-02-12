@@ -1,5 +1,5 @@
 proxies:
-   - name: Vless
+  - name: Vless
     server: hynesconstruction.com
     port: 443
     type: vless
