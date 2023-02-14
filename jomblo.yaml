@@ -116,6 +116,6 @@ proxies:
   servername: sg1-v2ray.sshkit.org
   network: ws
   ws-opts:
-    path: /sshkit/401452697/63bcbf78af700/
+    path: /sshkit/401452697/63eade8fe690a/
     headers:
       Host: sg1-v2ray.sshkit.org
