@@ -117,5 +117,5 @@ proxies:
   network: ws
   ws-opts:
     path: /sshkit/401452697/63eade8fe690a/
-    headers:
-      Host: sg1-v2ray.sshkit.org
+  headers:
+    Host: sg1-v2ray.sshkit.org
