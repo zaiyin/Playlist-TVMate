@@ -1,33 +1,19 @@
 proxies:
-  - name: Vless
+  - name: Vless ID
     server: hynesconstruction.com
     port: 443
     type: vless
-    uuid: 168f3b0a-a4a8-4e74-9ebe-7daf5a4233d1
+    uuid: df41e429-d656-47a2-99c6-1a51d531079c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id4.v2vless.xyz
+    udp: true
+    servername: id4-ws.xvless.xyz
     network: ws
     ws-opts:
-      path: /vless
+      path: /websocket
     headers:
-        Host: id4.v2vless.xyz
-    udp: true
-
-  - name: Trojan ID 3D
-    server: hynesconstruction.com
-    port: 443
-    type: trojan
-    password: rammaaa
-    network: ws
-    sni: trojan-ctb-us01.globalssh.xyz
-    skip-cert-verify: false
-    udp: true
-    ws-opts:
-      path: /trojan-ws
-    headers:
-      Host: trojan-ctb-us01.globalssh.xyz
+      Host: id4-ws.xvless.xyz
       
   - name: ID Herza Trojan
     server: hynesconstruction.com
