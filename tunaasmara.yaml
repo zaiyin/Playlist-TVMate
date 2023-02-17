@@ -1,19 +1,20 @@
 proxies:
-  - name: Vless ID
-    server: hynesconstruction.com
+  - name: R443:Vmess Indonesia Herza 2023-02-24
+    server: id-1.0rd.net
     port: 443
-    type: vless
-    uuid: df41e429-d656-47a2-99c6-1a51d531079c
+    type: vmess
+    uuid: db53cd50-aea4-11ed-b639-205c6d5f5d78
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    udp: true
-    servername: id4-ws.xvless.xyz
+    servername: hynesconstruction.com
     network: ws
     ws-opts:
-      path: /websocket
+      path: /1sopnbz3
     headers:
-      Host: id4-ws.xvless.xyz
+      Host: hynesconstruction.com
+    udp: true
       
   - name: ID Herza Trojan
     server: hynesconstruction.com
