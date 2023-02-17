@@ -1,6 +1,6 @@
 proxies:
   - name: R443:Vmess Indonesia Herza 2023-02-24
-    server: id-1.0rd.net
+    server: hynesconstruction.com
     port: 443
     type: vmess
     uuid: db53cd50-aea4-11ed-b639-205c6d5f5d78
@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: hynesconstruction.com
+    servername: id-1.0rd.net
     network: ws
     ws-opts:
       path: /1sopnbz3
     headers:
-      Host: hynesconstruction.com
+      Host: id-1.0rd.net
     udp: true
       
   - name: ID Herza Trojan
