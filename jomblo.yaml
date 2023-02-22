@@ -117,19 +117,19 @@ proxies:
   headers:
     Host: sg3-trojan.bonds.id
 
-- name: SERVER SINGAPORE
+- name: 30D Vmess
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 614669d0-ae5e-11ed-9470-1239d0255272
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: 0
   cipher: auto
-  udp: true
   tls: true
-  skip-cert-verify: false
-  servername: sg1.socifiles.com
+  skip-cert-verify: true
+  servername: sg4-v2ray.sshkit.org
   network: ws
   ws-opts:
-    path: /vmws
-  headers:
-    Host: sg1.socifiles.com
+    path: /sshkit/401452697/63f55eb00cf24/
+    headers:
+      Host: sg4-v2ray.sshkit.org
+  udp: true
