@@ -3,7 +3,7 @@ proxies:
     server: hynesconstruction.com
     port: 443
     type: vless
-    uuid: 209935cf-7786-442a-b2e1-8a904cd3a288
+    uuid: 3199fd64-aa10-4090-900b-d14cc7e816ed
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -19,26 +19,13 @@ proxies:
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: e8bb94e0-a2d5-11ed-9955-1239d0255272
+    password: 08b06a10-b67e-11ed-bc3f-1239d0255272
     network: ws
-    sni: idtj-herza.bonds.id
+    sni: id-1.test3.net
     skip-cert-verify: false
     udp: true
     ws-opts:
       path: /howdy
     headers:
-      Host: idtj-herza.bonds.id
+      Host: id-1.test3.net
 
-  - name: ID-IKD Trojan
-    server: hynesconstruction.com
-    port: 443
-    type: trojan
-    password: 0ec4da70-a2d6-11ed-b9f3-1239d0255272
-    network: ws
-    sni: idtj-ikd.bonds.id
-    skip-cert-verify: false
-    udp: true
-    ws-opts:
-      path: /howdy
-    headers:
-      Host: idtj-ikd.bonds.id
