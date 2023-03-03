@@ -20,32 +20,32 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 2d666f66-fdd5-42a4-b3a0-8b38ad7b1842
+  uuid: 1e347439-0b0c-4413-9e82-1d84f2a3f7b2
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: v2ray2.udpgw.com
+  servername: v2ray3.udpgw.com
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: v2ray2.udpgw.com
+      Host: v2ray3.udpgw.com
       
 - name: Weekly Trojan
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: aaac6c80-a8e9-11ed-8335-1239d0255272
+  password: 83452c40-b957-11ed-92b5-1239d0255272
   network: ws
-  sni: trojan2.udpgw.com
+  sni: trojan3.udpgw.com
   skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: trojan2.udpgw.com
+    Host: trojan3.udpgw.com
     
 - name: SG-HE MUX
   server: hynesconstruction.com
