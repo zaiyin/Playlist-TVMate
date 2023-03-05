@@ -1,20 +1,4 @@
-proxies:
-  - name: sshocean-vless
-    server: hynesconstruction.com
-    port: 443
-    type: vless
-    uuid: 6446f01e-7fc6-46b3-81d8-1a3ab2a4c84f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id3.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id3.v2vless.xyz
-    udp: true
-    
+proxies:   
   - name: sshocean-trojan
     server: hynesconstruction.com
     port: 443
@@ -43,3 +27,18 @@ proxies:
     headers:
       Host: id-1.test3.net
 
+  - name: sshocean-vless
+    server: hynesconstruction.com
+    port: 443
+    type: vless
+    uuid: 6446f01e-7fc6-46b3-81d8-1a3ab2a4c84f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id3.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id3.v2vless.xyz
+    udp: true
