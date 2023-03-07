@@ -1,4 +1,21 @@
 proxies:             
+- name: Vmess Singapore HE-1
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 9b236170-bd3e-11ed-b735-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: sg-1.0rd.net
+  network: ws
+  ws-opts:
+    path: /he6vcj38
+    headers:
+      Host: sg-1.0rd.net
+
 - name: Dynamic SG Vultr
   server: hynesconstruction.com
   port: 443
