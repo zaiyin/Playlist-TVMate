@@ -16,22 +16,22 @@ proxies:
     headers:
       Host: sg-1.0rd.net
 
-- name: Dynamic SG Vultr
+- name: SERVER SINGAPORE3
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 1b60e262-7b73-407a-a0bd-72c7be7717a3
+  uuid: e1d30d10-bd8e-11ed-958e-1239d0255272
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: dynamic-sg1b.obfs.xyz
+  servername: sg3.socifiles.com
   network: ws
   ws-opts:
-    path: /worryfree
+    path: /vmws
     headers:
-      Host: dynamic-sg1b.obfs.xyz
+      Host: sg3.socifiles.com
 
 - name: Weekly V2Ray
   server: hynesconstruction.com
