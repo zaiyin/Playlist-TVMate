@@ -50,19 +50,19 @@ proxies:
     headers:
       Host: v2ray1.udpgw.com
       
-- name: Weekly Trojan
+- name: SINGAPORE Trojan
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 85ec80a0-bae6-11ed-a9de-1239d0255272
+  password: c6115ea0-be22-11ed-9969-1239d0255272
   network: ws
-  sni: trojan1.udpgw.com
+  sni: sg1.socifiles.com
   skip-cert-verify: false
   udp: true
   ws-opts:
-    path: /howdy
+    path: /trojanws
   headers:
-    Host: trojan1.udpgw.com
+    Host: sg1.socifiles.com
     
 - name: SG-HE MUX
   server: hynesconstruction.com
