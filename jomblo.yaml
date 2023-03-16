@@ -3,18 +3,18 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 183b3b85-9fc6-4595-b1e5-f0117ff5a1d3
+  uuid: e4d98b3f-53c5-40fa-9940-981d43a77d2c
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: dynamic-sg1b.obfs.xyz
+  servername: dynamic-sg2b.obfs.xyz
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: dynamic-sg1b.obfs.xyz
+      Host: dynamic-sg2b.obfs.xyz
 
 - name: Weekly Trojan
   server: hynesconstruction.com
@@ -51,7 +51,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: c6115ea0-be22-11ed-9969-1239d0255272
+  password: 65720bb0-c3d2-11ed-a4b7-1239d0255272
   network: ws
   sni: sg1.socifiles.com
   skip-cert-verify: false
