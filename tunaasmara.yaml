@@ -3,21 +3,21 @@ proxies:
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: 15502027-e63b-44ad-88a3-757f18121665
+    password: 0bd3d170-3c71-4b17-af87-7060cb8aeaa4
     skip-cert-verify: false
-    sni: idt1.sshocean.net
+    sni: idt2.sshocean.net
     network: ws
     ws-opts:
       path: /websocket
     headers:
-      Host: idt1.sshocean.net
+      Host: idt2.sshocean.net
     udp: true
       
   - name: ID Herza Trojan
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: e7b61ea0-bc6e-11ed-a385-1239d0255272
+    password: e0aaa6e0-c606-11ed-b5c2-1239d0255272
     network: ws
     sni: id-1.test3.net
     skip-cert-verify: false
@@ -31,7 +31,7 @@ proxies:
     server: hynesconstruction.com
     port: 443
     type: vless
-    uuid: 6446f01e-7fc6-46b3-81d8-1a3ab2a4c84f
+    uuid: 3823a465-5e4f-4545-a79d-21662a33a615
     cipher: auto
     tls: true
     skip-cert-verify: true
