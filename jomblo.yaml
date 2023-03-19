@@ -20,15 +20,15 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 84db8820-c06c-11ed-9940-1239d0255272
+  password: e3f5d7a0-c5eb-11ed-a90f-1239d0255272
   network: ws
-  sni: trojan2.udpgw.com
+  sni: sg3.socifiles.com
   skip-cert-verify: false
   udp: true
   ws-opts:
-    path: /howdy
+    path: /trojanws
   headers:
-    Host: trojan2.udpgw.com
+    Host: sg3.socifiles.com
 
 - name: Weekly V2Ray
   server: hynesconstruction.com
