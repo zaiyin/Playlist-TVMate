@@ -20,7 +20,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: e3f5d7a0-c5eb-11ed-a90f-1239d0255272
+  password: 25247bc0-c780-11ed-ab08-1239d0255272
   network: ws
   sni: sg3.socifiles.com
   skip-cert-verify: false
@@ -47,11 +47,11 @@ proxies:
     headers:
       Host: v2ray2.udpgw.com
       
-- name: SINGAPORE Trojan
+- name: SINGAPORE Trojan 28
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 5681df60-c5eb-11ed-9b94-1239d0255272
+  password: 74aa1960-c780-11ed-9059-1239d0255272
   network: ws
   sni: sg1.socifiles.com
   skip-cert-verify: false
