@@ -12,6 +12,23 @@ proxies:
     headers:
       Host: idt2.sshocean.net
     udp: true
+    
+ - name: Vmess Indonesia Herza Limit 2023-03-24
+   server: hynesconstruction.com
+   port: 443
+   type: vmess
+   uuid: ab6fb990-c782-11ed-b630-205c6d5f5d78
+   alterId: 0
+   cipher: auto
+   udp: true
+   tls: true
+   skip-cert-verify: false
+   servername: id-1.0rd.net
+   network: ws
+   ws-opts:
+     path: /li1rahuq
+     headers:
+       Host: id-1.0rd.net
       
   - name: ID Herza Trojan
     server: hynesconstruction.com
