@@ -3,7 +3,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: e4d98b3f-53c5-40fa-9940-981d43a77d2c
+  uuid: 9de0bbed-d62d-44aa-80e8-7a9875c786c4
   alterId: 0
   cipher: auto
   udp: true
@@ -20,38 +20,38 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 25247bc0-c780-11ed-ab08-1239d0255272
+  password: d362b6d0-cb7c-11ed-b699-1239d0255272
   network: ws
-  sni: sg3.socifiles.com
+  sni: trojan3.udpgw.com
   skip-cert-verify: false
   udp: true
   ws-opts:
-    path: /trojanws
+    path: /howdy
   headers:
-    Host: sg3.socifiles.com
+    Host: trojan3.udpgw.com
 
 - name: Weekly V2Ray
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: 128b77cc-0b90-4dde-a12c-5c405ec080b3
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: false
-  servername: v2ray2.udpgw.com
+  servername: v2ray3.udpgw.com
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: v2ray2.udpgw.com
+      Host: v2ray3.udpgw.com
       
-- name: SINGAPORE Trojan 28
+- name: SINGAPORE Trojan 02
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 74aa1960-c780-11ed-9059-1239d0255272
+  password: 59a1c500-cb7d-11ed-9a52-1239d0255272
   network: ws
   sni: sg1.socifiles.com
   skip-cert-verify: false
@@ -65,7 +65,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 3c172880-bf44-11ed-8217-1239d0255272
+  password: aa37c0b0-cb7d-11ed-b602-1239d0255272
   network: ws
   sni: sg6-trojan.bonds.id
   skip-cert-verify: false
@@ -79,7 +79,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: add9a2c0-bf44-11ed-a8ac-1239d0255272
+  password: dbfd85d0-cb7d-11ed-b36f-1239d0255272
   network: ws
   sni: sg-3.test3.net
   skip-cert-verify: false
