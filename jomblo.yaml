@@ -47,11 +47,11 @@ proxies:
     headers:
       Host: v2ray3.udpgw.com
       
-- name: SINGAPORE Trojan 02
+- name: SINGAPORE Trojan
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 59a1c500-cb7d-11ed-9a52-1239d0255272
+  password: fbe596e0-d77e-11ed-9c38-1239d0255272
   network: ws
   sni: sg1.socifiles.com
   skip-cert-verify: false
@@ -93,7 +93,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 96ea53f0-bf44-11ed-9a78-1239d0255272
+  password: 6df478b0-d77f-11ed-9b70-1239d0255272
   network: ws
   sni: sg1-trojan.bonds.id
   skip-cert-verify: false
@@ -107,7 +107,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 5c253e10-bf44-11ed-b7a5-1239d0255272
+  password: 5be007e0-d77f-11ed-9200-1239d0255272
   network: ws
   sni: sg2-trojan.bonds.id
   skip-cert-verify: false
@@ -121,7 +121,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 7e294e60-bf44-11ed-a755-1239d0255272
+  password: 3dc02bf0-d77f-11ed-9df0-1239d0255272
   network: ws
   sni: sg3-trojan.bonds.id
   skip-cert-verify: false
@@ -130,20 +130,3 @@ proxies:
     path: /howdy
   headers:
     Host: sg3-trojan.bonds.id
-
-- name: 30D Vmess
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg4-v2ray.sshkit.org
-  network: ws
-  ws-opts:
-    path: /sshkit/401452697/63f55eb00cf24/
-    headers:
-      Host: sg4-v2ray.sshkit.org
-  udp: true
