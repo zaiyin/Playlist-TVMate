@@ -1,40 +1,9 @@
-proxies:   
-  - name: sshocean-trojan
-    server: hynesconstruction.com
-    port: 443
-    type: trojan
-    password: 0bd3d170-3c71-4b17-af87-7060cb8aeaa4
-    skip-cert-verify: false
-    sni: idt2.sshocean.net
-    network: ws
-    ws-opts:
-      path: /websocket
-    headers:
-      Host: idt2.sshocean.net
-    udp: true
-    
-  - name: Vmess Indonesia Herza Limit 2023-03-24
-    server: hynesconstruction.com
-    port: 443
-    type: vmess
-    uuid: ab6fb990-c782-11ed-b630-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: false
-    servername: id-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /li1rahuq
-      headers:
-        Host: id-1.0rd.net
-      
+proxies:        
   - name: ID Herza Trojan
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: e0aaa6e0-c606-11ed-b5c2-1239d0255272
+    password: aa885550-d77f-11ed-a05a-1239d0255272
     network: ws
     sni: id-1.test3.net
     skip-cert-verify: false
@@ -43,19 +12,3 @@ proxies:
       path: /howdy
     headers:
       Host: id-1.test3.net
-
-  - name: sshocean-vless
-    server: hynesconstruction.com
-    port: 443
-    type: vless
-    uuid: 3823a465-5e4f-4545-a79d-21662a33a615
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id3.v2vless.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id3.v2vless.xyz
-    udp: true
