@@ -12,3 +12,20 @@ proxies:
       path: /howdy
     headers:
       Host: id-1.test3.net
+
+  - name: SG+VMESS-WS(2023-04-21)
+    server: hynesconstruction.com
+    port: 443
+    type: vmess
+    uuid: 38e5ca90-dac6-11ed-9778-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
