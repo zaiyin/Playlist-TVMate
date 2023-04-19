@@ -3,7 +3,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 68ee2470-db66-11ed-930c-1239d0255272
+  password: 8904e410-de4e-11ed-840b-1239d0255272
   network: ws
   sni: sg3.socifiles.com
   skip-cert-verify: false
