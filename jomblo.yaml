@@ -13,7 +13,7 @@ proxies:
   headers:
     Host: trojan1.udpgw.com
     
-- name: v2ray1.udpgw.com
+- name: Weekly Vmess
   server: hynesconstruction.com
   port: 443
   type: vmess
@@ -21,7 +21,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   servername: v2ray1.udpgw.com
   network: ws
   ws-opts:
