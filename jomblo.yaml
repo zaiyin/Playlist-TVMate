@@ -13,6 +13,23 @@ proxies:
   headers:
     Host: trojan1.udpgw.com
     
+- name: v2ray1.udpgw.com
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: d18a042b-e9ef-45d1-9d1e-0052ffa8b30f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.udpgw.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: v2ray1.udpgw.com
+  udp: true
+    
 - name: SINGAPORE Trojan
   server: hynesconstruction.com
   port: 443
