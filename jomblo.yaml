@@ -15,12 +15,26 @@ proxies:
     headers:
       Host: v2ray1.udpgw.com
   udp: true
+
+- name: Weekly Trojan
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 7ec6f160-e301-11ed-8621-1239d0255272
+  network: ws
+  sni: trojan1.udpgw.com
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan1.udpgw.com
     
 - name: SINGAPORE Trojan
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 8904e410-de4e-11ed-840b-1239d0255272
+  password: b6b0fff0-e301-11ed-abc4-1239d0255272
   network: ws
   sni: sg3.socifiles.com
   skip-cert-verify: false
@@ -76,7 +90,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 332a2930-db67-11ed-ba88-1239d0255272
+  password: f67635a0-e301-11ed-b8e5-1239d0255272
   network: ws
   sni: sg2-trojan.bonds.id
   skip-cert-verify: false
@@ -90,7 +104,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 0d66ce40-db67-11ed-ab0f-1239d0255272
+  password: dae98a40-e301-11ed-a792-1239d0255272
   network: ws
   sni: sg3-trojan.bonds.id
   skip-cert-verify: false
