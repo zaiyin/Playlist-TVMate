@@ -3,7 +3,7 @@ proxies:
     server: hynesconstruction.com
     port: 443
     type: trojan
-    password: aa885550-d77f-11ed-a05a-1239d0255272
+    password: 310f7b50-e302-11ed-ac34-1239d0255272
     network: ws
     sni: id-1.test3.net
     skip-cert-verify: false
@@ -13,19 +13,16 @@ proxies:
     headers:
       Host: id-1.test3.net
 
-  - name: SG+VMESS-WS(2023-04-21)
+  - name: Trojan ID 01
     server: hynesconstruction.com
     port: 443
-    type: vmess
-    uuid: 38e5ca90-dac6-11ed-9778-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3.socifiles.com
+    type: trojan
+    password: cdc30f64-1e4e-4ecf-9489-692cddbf6a46
     network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: sg3.socifiles.com
+    sni: idt1.sshocean.net
+    skip-cert-verify: false
     udp: true
+    ws-opts:
+      path: /websocket
+    headers:
+      Host: idt1.sshocean.net
