@@ -1,4 +1,18 @@
 proxies:
+- name: Weekly Trojan
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 7ec6f160-e301-11ed-8621-1239d0255272
+  network: ws
+  sni: trojan1.udpgw.com
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan1.udpgw.com
+
 - name: Weekly Vmess
   server: hynesconstruction.com
   port: 443
@@ -15,20 +29,6 @@ proxies:
     headers:
       Host: v2ray1.udpgw.com
   udp: true
-
-- name: Weekly Trojan
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 7ec6f160-e301-11ed-8621-1239d0255272
-  network: ws
-  sni: trojan1.udpgw.com
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: trojan1.udpgw.com
     
 - name: SINGAPORE Trojan
   server: hynesconstruction.com
