@@ -12,17 +12,20 @@ proxies:
       path: /howdy
     headers:
       Host: id-1.test3.net
-
-  - name: Trojan ID 01
+      
+  - name: R443:Vmess Indonesia Herza Limit 2023-05-08
     server: hynesconstruction.com
     port: 443
-    type: trojan
-    password: cdc30f64-1e4e-4ecf-9489-692cddbf6a46
+    type: vmess
+    uuid: f56a8860-ead5-11ed-b939-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-1.0rd.net
     network: ws
-    sni: idt1.sshocean.net
-    skip-cert-verify: false
-    udp: true
     ws-opts:
-      path: /websocket
-    headers:
-      Host: idt1.sshocean.net
+      path: /zbgnamtr
+      headers:
+        Host: id-1.0rd.net
+    udp: true
