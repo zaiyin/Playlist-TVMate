@@ -13,21 +13,21 @@ proxies:
   headers:
     Host: trojan1.udpgw.com
 
-- name: Weekly Vmess
+- name: Dynamic SG Vultr
   server: hynesconstruction.com
   port: 443
   type: vmess
-  uuid: d18a042b-e9ef-45d1-9d1e-0052ffa8b30f
+  uuid: b110d341-017b-4c22-8697-a598bc86bbaa
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: v2ray1.udpgw.com
+  servername: dynamic-sg2b.obfs.xyz
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: v2ray1.udpgw.com
+      Host: dynamic-sg2b.obfs.xyz
   udp: true
     
 - name: SINGAPORE Trojan
