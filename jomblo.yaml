@@ -34,7 +34,7 @@ proxies:
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 982212a0-eb98-11ed-9136-1239d0255272
+  password: e098b170-ed89-11ed-9b4d-1239d0255272
   network: ws
   sni: sg3.socifiles.com
   skip-cert-verify: false
@@ -58,19 +58,19 @@ proxies:
   headers:
     Host: sg6-trojan.bonds.id
     
-- name: SG-OVH
+- name: SG Trojan Melbi
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 7bfb4ba0-e709-11ed-9fd8-1239d0255272
+  password: aef9aa70-ed89-11ed-92cb-1239d0255272
   network: ws
-  sni: sg-3.test3.net
+  sni: sg-4.test3.net
   skip-cert-verify: false
   udp: true
   ws-opts:
     path: /howdy
   headers:
-    Host: sg-3.test3.net
+    Host: sg-4.test3.net
     
 - name: SG-HE 1
   server: hynesconstruction.com
