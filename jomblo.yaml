@@ -1,57 +1,9 @@
 proxies:
-- name: Weekly Trojan
+- name: SINGAPORE3 Trojan
   server: hynesconstruction.com
   port: 443
   type: trojan
-  password: 49ba10c0-ee64-11ed-ae07-1239d0255272
-  network: ws
-  sni: trojan2.udpgw.com
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: trojan2.udpgw.com
-    
-- name: Weekly V2ray
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 3349e4da-3e41-44e8-9594-591afa3bbaf2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: v2ray2.udpgw.com
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: v2ray2.udpgw.com
-  udp: true
-
-- name: Dynamic SG Vultr
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: b110d341-017b-4c22-8697-a598bc86bbaa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: dynamic-sg2b.obfs.xyz
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: dynamic-sg2b.obfs.xyz
-  udp: true
-    
-- name: SINGAPORE Trojan
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: e098b170-ed89-11ed-9b4d-1239d0255272
+  password: 25412d10-f18d-11ed-86df-1239d0255272
   network: ws
   sni: sg3.socifiles.com
   skip-cert-verify: false
@@ -130,3 +82,50 @@ proxies:
     path: /howdy
   headers:
     Host: sg3-trojan.bonds.id
+- name: Weekly V2ray
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: 3349e4da-3e41-44e8-9594-591afa3bbaf2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: v2ray2.udpgw.com
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: v2ray2.udpgw.com
+  udp: true
+
+- name: Dynamic SG Vultr
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: b110d341-017b-4c22-8697-a598bc86bbaa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: dynamic-sg2b.obfs.xyz
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: dynamic-sg2b.obfs.xyz
+  udp: true
+    
+- name: Weekly Trojan
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 49ba10c0-ee64-11ed-ae07-1239d0255272
+  network: ws
+  sni: trojan2.udpgw.com
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /howdy
+  headers:
+    Host: trojan2.udpgw.com
