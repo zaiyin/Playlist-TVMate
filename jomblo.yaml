@@ -130,3 +130,17 @@ proxies:
     path: /howdy
   headers:
     Host: trojan2.udpgw.com
+
+- name: Trojan SG 01
+  server: hynesconstruction.com
+  port: 443
+  type: trojan
+  password: 5af1615e-c685-475e-9342-3cae7201e799
+  network: ws
+  sni: sgt1.sshocean.net
+  skip-cert-verify: false
+  udp: true
+  ws-opts:
+    path: /websocket
+  headers:
+    Host: sgt1.sshocean.net
