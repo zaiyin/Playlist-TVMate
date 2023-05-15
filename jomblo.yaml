@@ -13,6 +13,23 @@ proxies:
   headers:
     Host: sg3.socifiles.com
     
+- name: Vmess Singapore HE-1 Limit 2023-05-22
+  server: hynesconstruction.com
+  port: 443
+  type: vmess
+  uuid: af27e1e0-f302-11ed-b535-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sg-1.0rd.net
+  network: ws
+  ws-opts:
+    path: /7jnemqoa
+    headers:
+      Host: sg-1.0rd.net
+  udp: true
+    
 - name: SG-HE MUX
   server: hynesconstruction.com
   port: 443
