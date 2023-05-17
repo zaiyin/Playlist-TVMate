@@ -48,7 +48,7 @@ proxies:
   udp: true
     
 - name: SG-HE MUX
-  server: hynesconstruction.com
+  server: 172.67.73.39
   port: 443
   type: trojan
   password: bac8fc90-f439-11ed-a5c1-1239d0255272
