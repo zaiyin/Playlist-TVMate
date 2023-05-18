@@ -116,7 +116,7 @@ proxies:
     udp: true
     
   - name: SG Trojan AMP
-    server: 104.26.4.10
+    server: teams.microsoft.com
     port: 443
     type: trojan
     password: 8fcba8d0-f517-11ed-b04a-1239d0255272
