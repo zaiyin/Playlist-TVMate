@@ -115,6 +115,20 @@ proxies:
         Host: sg-8.0rd.net
     udp: true
     
+  - name: SG Trojan AMP
+    server: 104.26.4.10
+    port: 443
+    type: trojan
+    password: 8fcba8d0-f517-11ed-b04a-1239d0255272
+    skip-cert-verify: true
+    sni: sg-2.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
+    udp: true
+    
   - name: SG-HE MUX
     server: 104.26.4.10
     port: 443
