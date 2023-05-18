@@ -17,7 +17,7 @@ proxies:
     udp: true
     
   - name: SG+VMESS-WS(2023-05-25)
-    server: plugins-demo.midtrans.com
+    server: hynesconstruction.com
     port: 443
     type: vmess
     uuid: 91e5e480-f511-11ed-ae95-1239d0255272
@@ -34,7 +34,7 @@ proxies:
     udp: true
     
   - name: SG Trojan-WS(2023-05-25)
-    server: plugins-demo.midtrans.com
+    server: account-gopay.midtrans.com
     port: 443
     type: trojan
     password: b1c8e940-f513-11ed-9c6d-1239d0255272
@@ -48,7 +48,7 @@ proxies:
     udp: true
     
   - name: 443 Vmess Singapore HE-1 Limit 2023-05-25
-    server: plugins-demo.midtrans.com
+    server: api.midtrans.com
     port: 443
     type: vmess
     uuid: 4df0da20-f515-11ed-b931-205c6d5f5d78
@@ -65,7 +65,7 @@ proxies:
     udp: true
     
   - name: 443 Vmess Singapore Contabo 2023-05-25
-    server: plugins-demo.midtrans.com
+    server: 172.67.73.39
     port: 443
     type: vmess
     uuid: a0216da0-f515-11ed-b534-205c6d5f5d78
@@ -116,7 +116,7 @@ proxies:
     udp: true
     
   - name: SG Trojan AMP
-    server: plugins-demo.midtrans.com
+    server: 104.26.4.10
     port: 443
     type: trojan
     password: 8fcba8d0-f517-11ed-b04a-1239d0255272
