@@ -1,166 +1,186 @@
 proxies:
-- name: SINGAPORE3 Trojan
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 25412d10-f18d-11ed-86df-1239d0255272
-  network: ws
-  sni: sg3.socifiles.com
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /trojanws
-  headers:
-    Host: sg3.socifiles.com
+  - name: dynamic-sg3b
+    server: 104.26.4.10
+    port: 443
+    type: vmess
+    uuid: 6ac2b09b-d8a7-4305-9d33-b303c2b0ba1c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dynamic-sg3b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: dynamic-sg3b.obfs.xyz
+    udp: true
     
-- name: Vmess Singapore HE-1 Limit 2023-05-22
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: af27e1e0-f302-11ed-b535-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sg-1.0rd.net
-  network: ws
-  ws-opts:
-    path: /7jnemqoa
-    headers:
-      Host: sg-1.0rd.net
-  udp: true
-  
-- name: Vmess Singapore Contabo 2023-05-22
-  server: 104.26.4.10
-  port: 443
-  type: vmess
-  uuid: 256bcd90-f318-11ed-b335-205c6d5f5d78
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg-3.0rd.net
-  network: ws
-  ws-opts:
-    path: /e7dz0m4y
-    headers:
-      Host: sg-3.0rd.net
-  udp: true
+  - name: SG+VMESS-WS(2023-05-25)
+    server: 104.26.4.10
+    port: 443
+    type: vmess
+    uuid: 91e5e480-f511-11ed-ae95-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
     
-- name: SG-HE MUX
-  server: 172.67.73.39
-  port: 443
-  type: trojan
-  password: bac8fc90-f439-11ed-a5c1-1239d0255272
-  network: ws
-  sni: sg6-trojan.bonds.id
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg6-trojan.bonds.id
+  - name: SG Trojan-WS(2023-05-25)
+    server: plugins-demo.midtrans.com
+    port: 443
+    type: trojan
+    password: b1c8e940-f513-11ed-9c6d-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /trojanws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
     
-- name: SG Trojan Melbi
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: ed83a8c0-f439-11ed-9dd9-1239d0255272
-  network: ws
-  sni: sg-4.test3.net
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg-4.test3.net
+  - name: 443 Vmess Singapore HE-1 Limit 2023-05-25
+    server: 104.26.4.10
+    port: 443
+    type: vmess
+    uuid: 4df0da20-f515-11ed-b931-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /nvpalmb3
+      headers:
+        Host: sg-1.0rd.net
+    udp: true
     
-- name: SG-HE 1
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 47f1b6c0-f43a-11ed-97d4-1239d0255272
-  network: ws
-  sni: sg1-trojan.bonds.id
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg1-trojan.bonds.id
+  - name: 443 Vmess Singapore Contabo 2023-05-25
+    server: 104.26.4.10
+    port: 443
+    type: vmess
+    uuid: a0216da0-f515-11ed-b534-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-3.0rd.net
+    network: ws
+    ws-opts:
+      path: /2738z9ch
+      headers:
+        Host: sg-3.0rd.net
+    udp: true
     
-- name: SG-HE 2
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 6e48e870-f43a-11ed-a906-1239d0255272
-  network: ws
-  sni: sg2-trojan.bonds.id
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg2-trojan.bonds.id
+  - name: 443 Vmess Singapore Melbi 2 2023-05-25
+    server: 104.26.4.10
+    port: 443
+    type: vmess
+    uuid: f82dd410-f515-11ed-b132-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-8.0rd.net
+    network: ws
+    ws-opts:
+      path: /qzdlac8n
+      headers:
+        Host: sg-8.0rd.net
+    udp: true
     
-- name: SG-HE 3
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 20092e80-f43a-11ed-927b-1239d0255272
-  network: ws
-  sni: sg3-trojan.bonds.id
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: sg3-trojan.bonds.id
+  - name: 443 Vmess Singapore Melbi 2 2023-05-25
+    server: 104.26.4.10
+    port: 443
+    type: vmess
+    uuid: 3de60ea0-f516-11ed-b432-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-8.0rd.net
+    network: ws
+    ws-opts:
+      path: /orsv1naw
+      headers:
+        Host: sg-8.0rd.net
+    udp: true
     
-- name: Weekly V2ray
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: 3349e4da-3e41-44e8-9594-591afa3bbaf2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: v2ray2.udpgw.com
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: v2ray2.udpgw.com
-  udp: true
-
-- name: Dynamic SG Vultr
-  server: hynesconstruction.com
-  port: 443
-  type: vmess
-  uuid: b110d341-017b-4c22-8697-a598bc86bbaa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: dynamic-sg2b.obfs.xyz
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: dynamic-sg2b.obfs.xyz
-  udp: true
+  - name: SG-HE MUX
+    server: 104.26.4.10
+    port: 443
+    type: trojan
+    password: 79627fd0-f516-11ed-bc3e-1239d0255272
+    skip-cert-verify: true
+    sni: sg6-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
+    udp: true
     
-- name: Weekly Trojan
-  server: hynesconstruction.com
-  port: 443
-  type: trojan
-  password: 49ba10c0-ee64-11ed-ae07-1239d0255272
-  network: ws
-  sni: trojan2.udpgw.com
-  skip-cert-verify: false
-  udp: true
-  ws-opts:
-    path: /howdy
-  headers:
-    Host: trojan2.udpgw.com
+  - name: SG-HE 1
+    server: 104.26.4.10
+    port: 443
+    type: trojan
+    password: 576453e0-f517-11ed-904d-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
+    
+  - name: SG-HE 2
+    server: 104.26.4.10
+    port: 443
+    type: trojan
+    password: d45c8620-f516-11ed-9242-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
+    udp: true
+    
+  - name: SG-HE 3
+    server: 104.26.4.10
+    port: 443
+    type: trojan
+    password: fdbbf0f0-f516-11ed-a528-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+    
+  - name: SG Trojan Melbi
+    server: 104.26.4.10
+    port: 443
+    type: trojan
+    password: 29fc95e0-f517-11ed-a6e1-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
