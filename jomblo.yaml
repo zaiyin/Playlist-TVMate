@@ -16,35 +16,35 @@ proxies:
         Host: dynamic-sg3b.obfs.xyz
     udp: true
     
-  - name: SG+VMESS-WS(2023-05-25)
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 91e5e480-f511-11ed-ae95-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: sg3.socifiles.com
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: sg3.socifiles.com
-    udp: true
-    
-  - name: SG Trojan-WS(2023-05-25)
+  - name: trojan3
     server: sooya.biz.id
     port: 443
     type: trojan
-    password: b1c8e940-f513-11ed-9c6d-1239d0255272
-    skip-cert-verify: false
-    sni: sg3.socifiles.com
+    password: 7ebbf010-f5ea-11ed-9905-1239d0255272
+    skip-cert-verify: true
+    sni: trojan3.udpgw.com
     network: ws
     ws-opts:
-      path: /trojanws
+      path: /howdy
       headers:
-        Host: sg3.socifiles.com
+        Host: trojan3.udpgw.com
+    udp: true
+    
+  - name: v2ray3
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: 0bb50c13-540f-4fb3-bc3c-a9372d0c0e6d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray3.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray3.udpgw.com
     udp: true
     
   - name: 443 Vmess Singapore HE-1 Limit 2023-05-25
@@ -55,7 +55,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     servername: sg-1.0rd.net
     network: ws
     ws-opts:
@@ -72,7 +72,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
