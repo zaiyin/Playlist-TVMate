@@ -1,4 +1,20 @@
-proxies:        
+proxies: 
+  - name: 26 May 2023
+    server: sooya.biz.id
+    port: 443
+    type: vless
+    uuid: 63b1e18c-cdf9-4cb5-9f8a-b6c313f593b1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1-ws.xvless.xyz
+    udp: true
+    
   - name: ID Herza Trojan
     server: hynesconstruction.com
     port: 443
@@ -13,19 +29,16 @@ proxies:
     headers:
       Host: id-1.test3.net
       
-  - name: Vmess Indonesia Herza Limit 2023-05-18
-    server: hynesconstruction.com
+  - name: sshocean-ruytsaszs_trojan_ws
+    server: sooya.biz.id
     port: 443
-    type: vmess
-    uuid: 9cf26940-f318-11ed-b239-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 788ab87c-224d-4e85-8575-470567934d47
     skip-cert-verify: true
-    servername: id-1.0rd.net
+    sni: idt1.sshocean.net
     network: ws
     ws-opts:
-      path: /uhndmc7e
+      path: /websocket
       headers:
-        Host: id-1.0rd.net
+        Host: idt1.sshocean.net
     udp: true
