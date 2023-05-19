@@ -24,7 +24,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     servername: sg3.socifiles.com
     network: ws
     ws-opts:
@@ -38,7 +38,7 @@ proxies:
     port: 443
     type: trojan
     password: b1c8e940-f513-11ed-9c6d-1239d0255272
-    skip-cert-verify: true
+    skip-cert-verify: false
     sni: sg3.socifiles.com
     network: ws
     ws-opts:
@@ -55,7 +55,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     servername: sg-1.0rd.net
     network: ws
     ws-opts:
@@ -72,7 +72,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: true
+    skip-cert-verify: false
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
