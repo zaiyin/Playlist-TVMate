@@ -47,11 +47,11 @@ proxies:
         Host: v2ray3.udpgw.com
     udp: true
     
-  - name: 443 Vmess Singapore HE-1 Limit 2023-05-25
-    server: sooya.biz.id
+  - name: 443 Vmess Singapore HE-1 Limit 2023-06-01
+    server: plugins-demo.midtrans.com
     port: 443
     type: vmess
-    uuid: 4df0da20-f515-11ed-b931-205c6d5f5d78
+    uuid: bece06e0-fa99-11ed-b238-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -59,16 +59,16 @@ proxies:
     servername: sg-1.0rd.net
     network: ws
     ws-opts:
-      path: /nvpalmb3
+      path: /rbtynoax
       headers:
         Host: sg-1.0rd.net
     udp: true
     
-  - name: 443 Vmess Singapore Contabo 2023-05-25
-    server: 172.67.73.39
+  - name: 443 Vmess Singapore Contabo 2023-06-01
+    server: plugins-demo.midtrans.com
     port: 443
     type: vmess
-    uuid: a0216da0-f515-11ed-b534-205c6d5f5d78
+    uuid: eb0350e0-fa99-11ed-b837-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -76,43 +76,26 @@ proxies:
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
-      path: /2738z9ch
+      path: /bgwk1407
       headers:
         Host: sg-3.0rd.net
     udp: true
     
-  - name: 443 Vmess Singapore Melbi 2 2023-05-25
+  - name: 443 Vmess Singapore Melbi 3 2023-06-01
     server: plugins-demo.midtrans.com
     port: 443
     type: vmess
-    uuid: f82dd410-f515-11ed-b132-205c6d5f5d78
+    uuid: 22f51ef0-fa9a-11ed-b135-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-8.0rd.net
+    servername: sg-9.0rd.net
     network: ws
     ws-opts:
-      path: /qzdlac8n
+      path: /7seqhr0k
       headers:
-        Host: sg-8.0rd.net
-    udp: true
-    
-  - name: 443 Vmess Singapore Melbi 2 2023-05-25
-    server: plugins-demo.midtrans.com
-    port: 443
-    type: vmess
-    uuid: 3de60ea0-f516-11ed-b432-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-8.0rd.net
-    network: ws
-    ws-opts:
-      path: /orsv1naw
-      headers:
-        Host: sg-8.0rd.net
+        Host: sg-9.0rd.net
     udp: true
     
   - name: SG Trojan AMP
