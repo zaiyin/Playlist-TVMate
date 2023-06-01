@@ -30,28 +30,25 @@ proxies:
         Host: trojan3.udpgw.com
     udp: true
     
-  - name: v2ray3
-    server: sooya.biz.id
+  - name: ASIA Trojan-WS(2023-06-08)
+    server: plugins-demo.midtrans.com
     port: 443
-    type: vmess
-    uuid: 0bb50c13-540f-4fb3-bc3c-a9372d0c0e6d
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 507050d0-000e-11ee-b035-205c6d5f5d78
     skip-cert-verify: true
-    servername: v2ray3.udpgw.com
+    sni: asia1.oceis.net
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /trojanws
       headers:
-        Host: v2ray3.udpgw.com
+        Host: asia1.oceis.net
     udp: true
     
-  - name: 443 Vmess Singapore HE-1 Limit 2023-06-01
+  - name: R443:Vmess Singapore HE-1 Limit 2023-06-08
     server: plugins-demo.midtrans.com
     port: 443
     type: vmess
-    uuid: bece06e0-fa99-11ed-b238-205c6d5f5d78
+    uuid: 47541980-000f-11ee-b237-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -59,16 +56,16 @@ proxies:
     servername: sg-1.0rd.net
     network: ws
     ws-opts:
-      path: /rbtynoax
+      path: /jknxcq91
       headers:
         Host: sg-1.0rd.net
     udp: true
     
-  - name: 443 Vmess Singapore Contabo 2023-06-01
+  - name: R443:Vmess Singapore Contabo 2023-06-08
     server: plugins-demo.midtrans.com
     port: 443
     type: vmess
-    uuid: eb0350e0-fa99-11ed-b837-205c6d5f5d78
+    uuid: 6cea9340-000f-11ee-b539-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -76,16 +73,16 @@ proxies:
     servername: sg-3.0rd.net
     network: ws
     ws-opts:
-      path: /bgwk1407
+      path: /aykwnhuc
       headers:
         Host: sg-3.0rd.net
     udp: true
     
-  - name: 443 Vmess Singapore Melbi 3 2023-06-01
+  - name: R443:Vmess Singapore Melbi 3 2023-06-08
     server: plugins-demo.midtrans.com
     port: 443
     type: vmess
-    uuid: 22f51ef0-fa9a-11ed-b135-205c6d5f5d78
+    uuid: 20630cc0-0010-11ee-b330-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -93,7 +90,7 @@ proxies:
     servername: sg-9.0rd.net
     network: ws
     ws-opts:
-      path: /7seqhr0k
+      path: /sr0ymz1v
       headers:
         Host: sg-9.0rd.net
     udp: true
@@ -116,7 +113,7 @@ proxies:
     server: plugins-demo.midtrans.com
     port: 443
     type: trojan
-    password: 79627fd0-f516-11ed-bc3e-1239d0255272
+    password: fd562360-0010-11ee-ad6e-1239d0255272
     skip-cert-verify: true
     sni: sg6-trojan.bonds.id
     network: ws
@@ -130,7 +127,7 @@ proxies:
     server: plugins-demo.midtrans.com
     port: 443
     type: trojan
-    password: 576453e0-f517-11ed-904d-1239d0255272
+    password: 89df4090-0012-11ee-84e6-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -144,7 +141,7 @@ proxies:
     server: plugins-demo.midtrans.com
     port: 443
     type: trojan
-    password: d45c8620-f516-11ed-9242-1239d0255272
+    password: 626a8d00-0011-11ee-a050-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -158,7 +155,7 @@ proxies:
     server: plugins-demo.midtrans.com
     port: 443
     type: trojan
-    password: fdbbf0f0-f516-11ed-a528-1239d0255272
+    password: 80823350-0011-11ee-8739-1239d0255272
     skip-cert-verify: true
     sni: sg3-trojan.bonds.id
     network: ws
@@ -172,7 +169,7 @@ proxies:
     server: plugins-demo.midtrans.com
     port: 443
     type: trojan
-    password: 29fc95e0-f517-11ed-a6e1-1239d0255272
+    password: d347cc50-0010-11ee-a7fe-1239d0255272
     skip-cert-verify: true
     sni: sg-4.test3.net
     network: ws
