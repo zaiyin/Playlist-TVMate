@@ -1,6 +1,4 @@
 proxies:
-
-
   - name: trojan3
     server: sooya.biz.id
     port: 443
