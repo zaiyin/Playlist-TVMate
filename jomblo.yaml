@@ -1,21 +1,6 @@
 proxies:
-  - name: dynamic-sg3b
-    server: plugins-demo.midtrans.com
-    port: 443
-    type: vmess
-    uuid: 6ac2b09b-d8a7-4305-9d33-b303c2b0ba1c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dynamic-sg3b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg3b.obfs.xyz
-    udp: true
-    
+
+
   - name: trojan3
     server: sooya.biz.id
     port: 443
