@@ -1,21 +1,4 @@
 proxies:
-  - name: dynamic-sg1b.obfs.xyz
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 73f2bf98-d10f-4d5c-9671-d0a354dcacd4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dynamic-sg1b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg1b.obfs.xyz
-    udp: true
-    
   - name: v2ray1.udpgw.com
     server: sooya.biz.id
     port: 443
@@ -47,69 +30,21 @@ proxies:
         Host: trojan1.udpgw.com
     udp: true
     
-  - name: ASIA Trojan-WS(2023-06-08)
-    server: plugins-demo.midtrans.com
-    port: 443
-    type: trojan
-    password: 507050d0-000e-11ee-b035-205c6d5f5d78
-    skip-cert-verify: true
-    sni: asia1.oceis.net
-    network: ws
-    ws-opts:
-      path: /trojanws
-      headers:
-        Host: asia1.oceis.net
-    udp: true
-    
-  - name: R443:Vmess Singapore HE-1 Limit 2023-06-08
-    server: plugins-demo.midtrans.com
+  - name: dynamic-sg1b.obfs.xyz
+    server: sooya.biz.id
     port: 443
     type: vmess
-    uuid: 47541980-000f-11ee-b237-205c6d5f5d78
+    uuid: 73f2bf98-d10f-4d5c-9671-d0a354dcacd4
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-1.0rd.net
+    servername: dynamic-sg1b.obfs.xyz
     network: ws
     ws-opts:
-      path: /jknxcq91
+      path: /worryfree
       headers:
-        Host: sg-1.0rd.net
-    udp: true
-    
-  - name: R443:Vmess Singapore Contabo 2023-06-08
-    server: plugins-demo.midtrans.com
-    port: 443
-    type: vmess
-    uuid: 6cea9340-000f-11ee-b539-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-3.0rd.net
-    network: ws
-    ws-opts:
-      path: /aykwnhuc
-      headers:
-        Host: sg-3.0rd.net
-    udp: true
-    
-  - name: R443:Vmess Singapore Melbi 3 2023-06-08
-    server: plugins-demo.midtrans.com
-    port: 443
-    type: vmess
-    uuid: 20630cc0-0010-11ee-b330-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-9.0rd.net
-    network: ws
-    ws-opts:
-      path: /sr0ymz1v
-      headers:
-        Host: sg-9.0rd.net
+        Host: dynamic-sg1b.obfs.xyz
     udp: true
     
   - name: SG Trojan AMP
