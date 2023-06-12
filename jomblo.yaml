@@ -1,21 +1,4 @@
 proxies:
-  - name: v2ray1.udpgw.com
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 88524df0-c374-490e-ba27-3548fcc7666e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray1.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray1.udpgw.com
-    udp: true
-    
   - name: trojan1
     server: sooya.biz.id
     port: 443
@@ -47,6 +30,23 @@ proxies:
         Host: dynamic-sg1b.obfs.xyz
     udp: true
     
+  - name: v2ray1.udpgw.com
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: 88524df0-c374-490e-ba27-3548fcc7666e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray1.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray1.udpgw.com
+    udp: true
+    
   - name: SG Trojan AMP
     server: sooya.biz.id
     port: 443
@@ -62,7 +62,7 @@ proxies:
     udp: true
     
   - name: SG-HE MUX
-    server: plugins-demo.midtrans.com
+    server: sooya.biz.id
     port: 443
     type: trojan
     password: fd562360-0010-11ee-ad6e-1239d0255272
@@ -76,7 +76,7 @@ proxies:
     udp: true
     
   - name: SG-HE 1
-    server: plugins-demo.midtrans.com
+    server: sooya.biz.id
     port: 443
     type: trojan
     password: 89df4090-0012-11ee-84e6-1239d0255272
@@ -90,7 +90,7 @@ proxies:
     udp: true
     
   - name: SG-HE 2
-    server: plugins-demo.midtrans.com
+    server: sooya.biz.id
     port: 443
     type: trojan
     password: 626a8d00-0011-11ee-a050-1239d0255272
@@ -104,7 +104,7 @@ proxies:
     udp: true
     
   - name: SG-HE 3
-    server: plugins-demo.midtrans.com
+    server: sooya.biz.id
     port: 443
     type: trojan
     password: 80823350-0011-11ee-8739-1239d0255272
@@ -118,7 +118,7 @@ proxies:
     udp: true
     
   - name: SG Trojan Melbi
-    server: plugins-demo.midtrans.com
+    server: sooya.biz.id
     port: 443
     type: trojan
     password: d347cc50-0010-11ee-a7fe-1239d0255272
