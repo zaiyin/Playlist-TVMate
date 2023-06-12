@@ -30,23 +30,6 @@ proxies:
         Host: dynamic-sg1b.obfs.xyz
     udp: true
     
-  - name: v2ray1.udpgw.com
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 88524df0-c374-490e-ba27-3548fcc7666e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray1.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray1.udpgw.com
-    udp: true
-    
   - name: SG Trojan AMP
     server: sooya.biz.id
     port: 443
