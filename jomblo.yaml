@@ -16,6 +16,23 @@ proxies:
         Host: id-1.0rd.net
     udp: true
     
+  - name: R443:Vmess Singapore HE-1 Limit 2023-06-21
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: 28794b90-0aa6-11ee-b934-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /kwbnvij9
+      headers:
+        Host: sg-1.0rd.net
+    udp: true
+    
   - name: SG-HE MUX
     server: sooya.biz.id
     port: 443
