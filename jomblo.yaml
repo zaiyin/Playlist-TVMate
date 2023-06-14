@@ -1,35 +1,4 @@
 proxies:
-  - name: trojan1
-    server: sooya.biz.id
-    port: 443
-    type: trojan
-    password: 1730ef90-01be-11ee-88fa-1239d0255272
-    skip-cert-verify: true
-    sni: trojan1.udpgw.com
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: trojan1.udpgw.com
-    udp: true
-    
-  - name: dynamic-sg1b.obfs.xyz
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 73f2bf98-d10f-4d5c-9671-d0a354dcacd4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dynamic-sg1b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg1b.obfs.xyz
-    udp: true
-    
   - name: SG Trojan AMP
     server: sooya.biz.id
     port: 443
