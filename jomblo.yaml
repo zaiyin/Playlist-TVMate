@@ -1,21 +1,4 @@
 proxies:
-  - name: R443:Vmess Indonesia Herza Limit 2023-06-17
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: b4616b40-0aa4-11ee-b531-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /9vgxdmsl
-      headers:
-        Host: id-1.0rd.net
-    udp: true
-    
   - name: R443:Vmess Singapore HE-1 Limit 2023-06-21
     server: sooya.biz.id
     port: 443
@@ -33,6 +16,23 @@ proxies:
         Host: sg-1.0rd.net
     udp: true
     
+  - name: R443:Vmess Indonesia Herza Limit 2023-06-17
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: b4616b40-0aa4-11ee-b531-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /9vgxdmsl
+      headers:
+        Host: id-1.0rd.net
+    udp: true
+   
   - name: SG-HE MUX
     server: sooya.biz.id
     port: 443
