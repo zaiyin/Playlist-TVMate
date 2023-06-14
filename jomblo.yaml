@@ -1,16 +1,19 @@
 proxies:
-  - name: SG Trojan AMP
+  - name: R443:Vmess Indonesia Herza Limit 2023-06-17
     server: sooya.biz.id
     port: 443
-    type: trojan
-    password: 8fcba8d0-f517-11ed-b04a-1239d0255272
+    type: vmess
+    uuid: b4616b40-0aa4-11ee-b531-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg-2.test3.net
+    servername: id-1.0rd.net
     network: ws
     ws-opts:
-      path: /howdy
+      path: /9vgxdmsl
       headers:
-        Host: sg-2.test3.net
+        Host: id-1.0rd.net
     udp: true
     
   - name: SG-HE MUX
