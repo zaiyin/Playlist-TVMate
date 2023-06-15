@@ -1,4 +1,36 @@
 proxies:
+  - name: sshocean-cewrdhhh
+
+    server: sooya.biz.id
+
+    port: 443
+
+    type: vmess
+
+    uuid: 89c00cb3-ec82-4b8d-b739-ed671d226bc5
+
+    alterId: 0
+
+    cipher: auto
+
+    tls: true
+
+    skip-cert-verify: true
+
+    servername: id8.v2rayserv.com
+
+    network: ws
+
+    ws-opts:
+
+      path: /vmess
+
+      headers:
+
+        Host: id8.v2rayserv.com
+
+    udp: true
+    
   - name: R443:Vmess Singapore HE-1 Limit 2023-06-21
     server: sooya.biz.id
     port: 443
