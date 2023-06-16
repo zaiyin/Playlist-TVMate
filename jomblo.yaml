@@ -1,4 +1,23 @@
 proxies:
+  - name: dynamic-sg2b.obfs.xyz
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: 732e893b-22bf-448b-b79f-3c07a5dcced7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dynamic-sg2b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: dynamic-sg2b.obfs.xyz
+    udp: true
+    
+
+
   - name: v2ray2.udpgw.com
     server: sooya.biz.id
     port: 443
@@ -29,24 +48,8 @@ proxies:
       headers:
         Host: trojan2.udpgw.com
     udp: true
-    
-  - name: dynamic-sg2b.obfs.xyz
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 732e893b-22bf-448b-b79f-3c07a5dcced7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: dynamic-sg2b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg2b.obfs.xyz
-    udp: true
-    
+
+
   - name: SG+VMESS-WS(2023-06-23)
     server: sooya.biz.id
     port: 443
