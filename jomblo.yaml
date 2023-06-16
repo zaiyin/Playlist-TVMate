@@ -1,4 +1,35 @@
 proxies:
+  - name: v2ray2.udpgw.com
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: 95b0d340-ec50-450e-b3e1-90ef88f748b2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray2.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray2.udpgw.com
+    udp: true
+    
+  - name: trojan2.udpgw.com
+    server: sooya.biz.id
+    port: 443
+    type: trojan
+    password: 35259a00-0c2e-11ee-aea3-1239d0255272
+    skip-cert-verify: true
+    sni: trojan2.udpgw.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: trojan2.udpgw.com
+    udp: true
+    
   - name: dynamic-sg2b.obfs.xyz
     server: sooya.biz.id
     port: 443
@@ -49,41 +80,7 @@ proxies:
       headers:
         Host: id8.v2rayserv.com
     udp: true
-    
-  - name: R443:Vmess Singapore HE-1 Limit 2023-06-21
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 28794b90-0aa6-11ee-b934-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /kwbnvij9
-      headers:
-        Host: sg-1.0rd.net
-    udp: true
-    
-  - name: R443:Vmess Indonesia Herza Limit 2023-06-17
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: b4616b40-0aa4-11ee-b531-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-1.0rd.net
-    network: ws
-    ws-opts:
-      path: /9vgxdmsl
-      headers:
-        Host: id-1.0rd.net
-    udp: true
-   
+       
   - name: SG-HE MUX
     server: sooya.biz.id
     port: 443
