@@ -1,72 +1,21 @@
 proxies:
-  - name: dynamic-sg2b.obfs.xyz
+  - name: ASIA+VMESS-WS(2023-06-28)
     server: sooya.biz.id
     port: 443
     type: vmess
-    uuid: 732e893b-22bf-448b-b79f-3c07a5dcced7
+    uuid: b7c7f870-0fc4-11ee-b038-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dynamic-sg2b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg2b.obfs.xyz
-    udp: true
-    
-
-
-  - name: v2ray2.udpgw.com
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 95b0d340-ec50-450e-b3e1-90ef88f748b2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray2.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray2.udpgw.com
-    udp: true
-    
-  - name: trojan2.udpgw.com
-    server: sooya.biz.id
-    port: 443
-    type: trojan
-    password: 35259a00-0c2e-11ee-aea3-1239d0255272
-    skip-cert-verify: true
-    sni: trojan2.udpgw.com
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: trojan2.udpgw.com
-    udp: true
-
-
-  - name: SG+VMESS-WS(2023-06-23)
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: d4b86ba0-0bd8-11ee-b803-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3.socifiles.com
+    servername: asia1.oceis.net
     network: ws
     ws-opts:
       path: /vmws
       headers:
-        Host: sg3.socifiles.com
+        Host: asia1.oceis.net
     udp: true
-
+    
   - name: sshocean-cewrdhhh
     server: sooya.biz.id
     port: 443
