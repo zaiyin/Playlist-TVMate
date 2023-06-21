@@ -1,26 +1,9 @@
 proxies:
-  - name: ASIA+VMESS-WS(2023-06-28)
+  - name: sshocean-29sdfc
     server: sooya.biz.id
     port: 443
     type: vmess
-    uuid: b7c7f870-0fc4-11ee-b038-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: asia1.oceis.net
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia1.oceis.net
-    udp: true
-    
-  - name: sshocean-cewrdhhh
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 89c00cb3-ec82-4b8d-b739-ed671d226bc5
+    uuid: 0904d0be-f45c-48a1-93c5-93471508ebe7
     alterId: 0
     cipher: auto
     tls: true
