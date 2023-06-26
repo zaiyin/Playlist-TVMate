@@ -15,40 +15,77 @@ proxies:
       headers:
         Host: id8.v2rayserv.com
     udp: true
-       
-  - name: SG-HE MUX
+    
+  - name: ASIA+VMESS-WS(2023-07-03)
     server: sooya.biz.id
     port: 443
-    type: trojan
-    password: fd562360-0010-11ee-ad6e-1239d0255272
+    type: vmess
+    uuid: c7169000-13f9-11ee-b432-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg6-trojan.bonds.id
+    servername: asia1.oceis.net
     network: ws
     ws-opts:
-      path: /howdy
+      path: /vmws
       headers:
-        Host: sg6-trojan.bonds.id
+        Host: asia1.oceis.net
     udp: true
     
-  - name: SG-HE 1
+  - name: sshocean-yunytfb
     server: sooya.biz.id
-    port: 443
-    type: trojan
-    password: 89df4090-0012-11ee-84e6-1239d0255272
+    port: 80
+    type: vmess
+    uuid: b08460fa-a6bc-42ce-856f-d2291d5e2e86
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
+    servername: sg3-mlb.v2rayserv.com
     network: ws
     ws-opts:
-      path: /howdy
+      path: /vmess
       headers:
-        Host: sg1-trojan.bonds.id
+        Host: sg3-mlb.v2rayserv.com
+    udp: true
+    
+  - name: sshocean-ytjrhjtty
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: af29b624-b1c8-4a74-b5b1-edefcff876d6
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id2.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id2.v2rayserv.com
+    udp: true
+       
+  - name: sshocean-tumerdf_trojan_ws
+    server: sooya.biz.id
+    port: 80
+    type: trojan
+    password: c0d9da22-2569-4bed-a395-607d9e7ae687
+    skip-cert-verify: true
+    sni: idt1.sshocean.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: idt1.sshocean.net
     udp: true
     
   - name: SG-HE 2
     server: sooya.biz.id
     port: 443
     type: trojan
-    password: 626a8d00-0011-11ee-a050-1239d0255272
+    password: 9bd10a10-126a-11ee-8578-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -58,25 +95,25 @@ proxies:
         Host: sg2-trojan.bonds.id
     udp: true
     
-  - name: SG-HE 3
+  - name: HE MUX
     server: sooya.biz.id
     port: 443
     type: trojan
-    password: 80823350-0011-11ee-8739-1239d0255272
+    password: fbae5e60-13fa-11ee-a534-1239d0255272
     skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
+    sni: sg6-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: sg3-trojan.bonds.id
+        Host: sg6-trojan.bonds.id
     udp: true
     
-  - name: SG Trojan Melbi
+  - name: Melbi
     server: sooya.biz.id
     port: 443
     type: trojan
-    password: d347cc50-0010-11ee-a7fe-1239d0255272
+    password: 49ce8d40-13fb-11ee-be05-1239d0255272
     skip-cert-verify: true
     sni: sg-4.test3.net
     network: ws
