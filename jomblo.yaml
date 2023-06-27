@@ -1,35 +1,4 @@
 proxies:
-  - name: v2ray3.udpgw.com
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray3.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray3.udpgw.com
-    udp: true
-    
-  - name: 11 Jul
-    server: sooya.biz.id
-    port: 443
-    type: trojan
-    password: 197a8b60-14bf-11ee-a7bd-1239d0255272
-    skip-cert-verify: true
-    sni: trojan3.udpgw.com
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: trojan3.udpgw.com
-    udp: true
-    
   - name: SG+VMESS-WS(2023-07-03)
     server: sooya.biz.id
     port: 443
@@ -47,14 +16,14 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
     
-  - name: sshocean-29sdfc
-    server: sooya.biz.id
+  - name: sshocean-yusadvxvcv
+    server: 172.67.139.111
     port: 443
     type: vmess
-    uuid: 0904d0be-f45c-48a1-93c5-93471508ebe7
+    uuid: 0d21dd42-b802-4cbc-a03b-4fa89a34ff94
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: id8.v2rayserv.com
     network: ws
