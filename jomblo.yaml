@@ -50,26 +50,9 @@ proxies:
         Host: asia1.oceis.net
     udp: true
     
-  - name: sshocean-yunytfb
-    server: sooya.biz.id
-    port: 80
-    type: vmess
-    uuid: b08460fa-a6bc-42ce-856f-d2291d5e2e86
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg3-mlb.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg3-mlb.v2rayserv.com
-    udp: true
-    
   - name: sshocean-ytjrhjtty
     server: sooya.biz.id
-    port: 443
+    port: 80
     type: vmess
     uuid: af29b624-b1c8-4a74-b5b1-edefcff876d6
     alterId: 0
