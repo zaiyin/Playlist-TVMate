@@ -17,8 +17,8 @@ proxies:
     udp: true
     
   - name: sshocean-yusadvxvcv
-    server: 172.67.139.111
-    port: 443
+    server: sooya.biz.id
+    port: 80
     type: vmess
     uuid: 0d21dd42-b802-4cbc-a03b-4fa89a34ff94
     alterId: 0
