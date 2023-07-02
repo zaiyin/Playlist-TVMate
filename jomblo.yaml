@@ -1,4 +1,21 @@
 proxies:
+  - name: dynamic-sg1b.obfs.xyz
+    server: dynamic-sg1b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 132633a9-b53e-4352-82a6-93eae114482e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: sooya.biz.id
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: sooya.biz.id
+    udp: true
+    
   - name: SG+VMESS-WS(2023-07-03)
     server: sooya.biz.id
     port: 443
