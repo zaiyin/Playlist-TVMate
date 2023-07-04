@@ -16,6 +16,23 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
 
+  - name: sshocean-04juni
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: ccc6dce9-e35b-4db1-b280-1832042a9fc1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: id8.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id8.v2rayserv.com
+    udp: true
+    
   - name: dynamic-sg1b.obfs.xyz
     server: sooya.biz.id
     port: 443
