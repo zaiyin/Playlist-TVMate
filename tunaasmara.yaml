@@ -1,44 +1,30 @@
 proxies: 
-  - name: 26 May 2023
+  - name: sshocean-15-juli
     server: sooya.biz.id
     port: 443
-    type: vless
-    uuid: 63b1e18c-cdf9-4cb5-9f8a-b6c313f593b1
+    type: vmess
+    uuid: ec95a212-709c-4cc7-9632-13fc89f9686f
+    alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: id1-ws.xvless.xyz
-    udp: true
-    
-  - name: ID Herza Trojan
-    server: hynesconstruction.com
-    port: 443
-    type: trojan
-    password: 310f7b50-e302-11ed-ac34-1239d0255272
-    network: ws
-    sni: id-1.test3.net
     skip-cert-verify: false
-    udp: true
+    servername: id8.v2rayserv.com
+    network: ws
     ws-opts:
-      path: /howdy
-    headers:
-      Host: id-1.test3.net
-      
-  - name: sshocean-ruytsaszs_trojan_ws
+      path: /vmess
+      headers:
+        Host: id8.v2rayserv.com
+    udp: true
+
+  - name: ID-Herza
     server: sooya.biz.id
     port: 443
     type: trojan
-    password: 788ab87c-224d-4e85-8575-470567934d47
-    skip-cert-verify: true
-    sni: idt1.sshocean.net
+    password: 4d06a010-1d67-11ee-b66f-1239d0255272
+    sni: id-1.test3.net
+    udp: true
     network: ws
     ws-opts:
-      path: /websocket
+      path: /howdy
       headers:
-        Host: idt1.sshocean.net
-    udp: true
+        Host: id-1.test3.net
