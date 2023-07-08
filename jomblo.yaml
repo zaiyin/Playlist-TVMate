@@ -16,28 +16,28 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
 
-  - name: sshocean-04juni
+  - name: v2ray1.udpgw.com
     server: sooya.biz.id
     port: 443
     type: vmess
-    uuid: ccc6dce9-e35b-4db1-b280-1832042a9fc1
+    uuid: 31775410-d808-410e-b8ec-f5e4862a3e23
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false
-    servername: id8.v2rayserv.com
+    servername: v2ray1.udpgw.com
     network: ws
     ws-opts:
-      path: /vmess
+      path: /worryfree
       headers:
-        Host: id8.v2rayserv.com
+        Host: v2ray1.udpgw.com
     udp: true
-    
+
   - name: dynamic-sg1b.obfs.xyz
     server: sooya.biz.id
     port: 443
     type: vmess
-    uuid: 132633a9-b53e-4352-82a6-93eae114482e
+    uuid: ff6a77fb-35ec-4863-9c68-5a9d10976cb8
     alterId: 0
     cipher: auto
     tls: true
@@ -49,6 +49,32 @@ proxies:
       headers:
         Host: dynamic-sg1b.obfs.xyz
     udp: true
+    
+  - name: HOWDY
+    server: sooya.biz.id
+    port: 443
+    type: trojan
+    password: eb4f5300-1d67-11ee-8119-1239d0255272
+    sni: trojan1.udpgw.com
+    udp: true
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: trojan1.udpgw.com
+
+  - name: SG-HE MUX
+    server: sooya.biz.id
+    port: 443
+    type: trojan
+    password: b02f9c20-1d68-11ee-9981-1239d0255272
+    sni: sg6-trojan.bonds.id
+    udp: true
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg6-trojan.bonds.id
     
   - name: SG-HE 2
     server: sooya.biz.id
@@ -63,20 +89,19 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
-    
-  - name: HE MUX
+
+  - name: SG-HE 3
     server: sooya.biz.id
     port: 443
     type: trojan
-    password: fbae5e60-13fa-11ee-a534-1239d0255272
-    skip-cert-verify: true
-    sni: sg6-trojan.bonds.id
+    password: deaf5e90-1d68-11ee-91a6-1239d0255272
+    sni: sg3-trojan.bonds.id
+    udp: true
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: sg6-trojan.bonds.id
-    udp: true
+        Host: sg3-trojan.bonds.id
     
   - name: Melbi
     server: sooya.biz.id
