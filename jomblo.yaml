@@ -1,21 +1,4 @@
 proxies:
-  - name: SG+VMESS-WS(2023-07-10)
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 8360b800-1933-11ee-8b2a-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: sg3.socifiles.com
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: sg3.socifiles.com
-    udp: true
-
   - name: v2ray1.udpgw.com
     server: sooya.biz.id
     port: 443
