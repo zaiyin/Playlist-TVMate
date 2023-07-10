@@ -1,38 +1,4 @@
 proxies:
-  - name: v2ray1.udpgw.com
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: 31775410-d808-410e-b8ec-f5e4862a3e23
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: v2ray1.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray1.udpgw.com
-    udp: true
-
-  - name: dynamic-sg1b.obfs.xyz
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: ff6a77fb-35ec-4863-9c68-5a9d10976cb8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: dynamic-sg1b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg1b.obfs.xyz
-    udp: true
-    
   - name: HOWDY
     server: sooya.biz.id
     port: 443
@@ -98,4 +64,38 @@ proxies:
       path: /howdy
       headers:
         Host: sg-4.test3.net
+    udp: true
+
+  - name: v2ray1.udpgw.com
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: 31775410-d808-410e-b8ec-f5e4862a3e23
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: v2ray1.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray1.udpgw.com
+    udp: true
+
+  - name: dynamic-sg1b.obfs.xyz
+    server: sooya.biz.id
+    port: 443
+    type: vmess
+    uuid: ff6a77fb-35ec-4863-9c68-5a9d10976cb8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: dynamic-sg1b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: dynamic-sg1b.obfs.xyz
     udp: true
