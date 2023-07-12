@@ -43,6 +43,20 @@ proxies:
       path: /howdy
       headers:
         Host: sg6-trojan.bonds.id
+
+  - name: SG-HE 1
+    server: sooya.biz.id
+    port: 443
+    type: trojan
+    password: a420a0a0-2064-11ee-85e0-1239d0255272
+    skip-cert-verify: false
+    sni: sg1-trojan.bonds.id
+    udp: true
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
     
   - name: SG-HE 2
     server: sooya.biz.id
