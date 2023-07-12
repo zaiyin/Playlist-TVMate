@@ -1,26 +1,10 @@
 proxies: 
-  - name: sshocean-15-juli
-    server: sooya.biz.id
-    port: 443
-    type: vmess
-    uuid: ec95a212-709c-4cc7-9632-13fc89f9686f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: id8.v2rayserv.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id8.v2rayserv.com
-    udp: true
-
   - name: ID-Herza
     server: sooya.biz.id
     port: 443
     type: trojan
     password: 4d06a010-1d67-11ee-b66f-1239d0255272
+    skip-cert-verify: false
     sni: id-1.test3.net
     udp: true
     network: ws
@@ -28,3 +12,17 @@ proxies:
       path: /howdy
       headers:
         Host: id-1.test3.net
+
+  - name: 19-Juli
+    server: sooya.biz.id
+    port: 443
+    type: trojan
+    password: f09939f8-6e71-4c11-be40-2e0b72ead588
+    skip-cert-verify: false
+    sni: idt5.sshocean.net
+    udp: true
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: idt5.sshocean.net
