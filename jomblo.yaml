@@ -1,21 +1,18 @@
 proxies:
-  - name: v2ray1.udpgw.com
+  - name: HOWDY
     server: sooya.biz.id
     port: 443
-    type: vmess
-    uuid: 37055b3e-0b21-4925-b08c-bb31efcbaca8
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: eb4f5300-1d67-11ee-8119-1239d0255272
     skip-cert-verify: false
-    servername: v2ray1.udpgw.com
+    sni: trojan1.udpgw.com
+    udp: true
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /howdy
       headers:
-        Host: v2ray1.udpgw.com
-    udp: true
-    
+        Host: trojan1.udpgw.com
+
   - name: SG+VMESS-WS(2023-07-17)
     server: sooya.biz.id
     port: 443
@@ -32,20 +29,23 @@ proxies:
       headers:
         Host: sg3.socifiles.com
     udp: true
-    
-  - name: HOWDY
+
+  - name: v2ray1.udpgw.com
     server: sooya.biz.id
     port: 443
-    type: trojan
-    password: eb4f5300-1d67-11ee-8119-1239d0255272
+    type: vmess
+    uuid: 37055b3e-0b21-4925-b08c-bb31efcbaca8
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: false
-    sni: trojan1.udpgw.com
-    udp: true
+    servername: v2ray1.udpgw.com
     network: ws
     ws-opts:
-      path: /howdy
+      path: /worryfree
       headers:
-        Host: trojan1.udpgw.com
+        Host: v2ray1.udpgw.com
+    udp: true
 
   - name: SG-HE MUX
     server: sooya.biz.id
