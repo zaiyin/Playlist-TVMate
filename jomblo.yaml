@@ -1,18 +1,4 @@
 proxies:
-  - name: HOWDY
-    server: sooya.biz.id
-    port: 443
-    type: trojan
-    password: eb4f5300-1d67-11ee-8119-1239d0255272
-    skip-cert-verify: false
-    sni: trojan1.udpgw.com
-    udp: true
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: trojan1.udpgw.com
-
   - name: SG-HE MUX
     server: sooya.biz.id
     port: 443
