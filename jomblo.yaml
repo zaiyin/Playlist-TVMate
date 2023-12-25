@@ -1,12 +1,12 @@
 proxies:
-  - name: ASIA+VMESS-WS(2023-12-29)
+  - name: ASIA+VMESS-WS NTLS(2024-01-01)
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: ad38dca0-a091-11ee-b438-205c6d5f5d78
+    uuid: 56859ca0-a2c6-11ee-b032-205c6d5f5d78
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: asia1.fufo.org
     network: ws
@@ -16,11 +16,11 @@ proxies:
         Host: asia1.fufo.org
     udp: true
     
-  - name: ID+VMESS-WS(2023-12-29)
+  - name: ASIA+VMESS-WS(2024-01-01)
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: b571d2c0-a092-11ee-b634-205c6d5f5d78
+    uuid: 94deb790-a2c6-11ee-b134-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -32,12 +32,46 @@ proxies:
       headers:
         Host: asia2.fufo.org
     udp: true
+
+  - name: dynamic-sg2b.obfs.xyz
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: b05f61d2-36c3-4d35-80dc-6393c05952d8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dynamic-sg2b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: dynamic-sg2b.obfs.xyz
+    udp: true
+
+  - name: SG+VMESS-WS(2024-01-01)
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 1358e8f0-a2c7-11ee-8122-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
     
   - name: HE1
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 6d629ed0-9ef8-11ee-b977-1239d0255272
+    password: 4e2b3560-a2c7-11ee-a42a-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -51,7 +85,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: d3e18b20-9ef8-11ee-866d-1239d0255272
+    password: 63fe5d00-a2c7-11ee-8a67-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -65,7 +99,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: fae4b040-9ef8-11ee-8d55-1239d0255272
+    password: 7716fef0-a2c7-11ee-9ae0-1239d0255272
     skip-cert-verify: true
     sni: sg3-trojan.bonds.id
     network: ws
@@ -89,21 +123,4 @@ proxies:
       path: /?GegeVPS=2023
       headers:
         Host: autotunnel.gegevps.com
-    udp: true
-    
-  - name: akunssh-yufdgkgjk
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: b7a89a84-9cfd-11ee-b105-a7cf9f9e7784
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: sg1-vmess.tunnel.cx
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg1-vmess.tunnel.cx
     udp: true
