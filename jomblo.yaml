@@ -1,55 +1,4 @@
 proxies:
-  - name: ASIA+VMESS-WS NTLS(2024-01-01)
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 56859ca0-a2c6-11ee-b032-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia1.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia1.fufo.org
-    udp: true
-    
-  - name: ASIA+VMESS-WS(2024-01-01)
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 94deb790-a2c6-11ee-b134-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia2.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia2.fufo.org
-    udp: true
-
-  - name: dynamic-sg2b.obfs.xyz
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: b05f61d2-36c3-4d35-80dc-6393c05952d8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: dynamic-sg2b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg2b.obfs.xyz
-    udp: true
-
   - name: SG+VMESS-WS(2024-01-01)
     server: beacon.liveon.id
     port: 443
@@ -65,6 +14,40 @@ proxies:
       path: /vmws
       headers:
         Host: sg3.socifiles.com
+    udp: true
+
+  - name: ASIA+VMESS-WS(2024-01-03)
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 903932d0-a446-11ee-b931-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia1.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia1.fufo.org
+    udp: true
+
+  - name: ASIA+VMESS-ID(2024-01-03)
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 1d6f39e0-a446-11ee-b931-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia2.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia2.fufo.org
     udp: true
     
   - name: HE1
@@ -123,4 +106,21 @@ proxies:
       path: /?GegeVPS=2023
       headers:
         Host: autotunnel.gegevps.com
+    udp: true
+    
+  - name: dynamic-sg2b.obfs.xyz
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 25f4e642-718e-4656-9173-faaf6c5163c7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: dynamic-sg2b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: dynamic-sg2b.obfs.xyz
     udp: true
