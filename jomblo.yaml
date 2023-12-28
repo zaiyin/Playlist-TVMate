@@ -16,6 +16,23 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
 
+  - name: 🇺🇸US-108.165.113.99-0247
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: ef22fad3-652a-48fc-e80a-46faa3a6a787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 108.165.113.99
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 108.165.113.99
+    udp: true
+
   - name: ASIA+VMESS-WS(2024-01-03)
     server: beacon.liveon.id
     port: 443
