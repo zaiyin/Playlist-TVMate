@@ -16,21 +16,21 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
 
-  - name: 🇺🇸US-108.165.113.99-0247
+  - name: 🏁RELAY-104.21.31.62-10101
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: ef22fad3-652a-48fc-e80a-46faa3a6a787
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: true
-    servername: 108.165.113.99
+    skip-cert-verify: false
+    servername: obdii.cfd
     network: ws
     ws-opts:
-      path: /
+      path: /linkws
       headers:
-        Host: 108.165.113.99
+        Host: obdii.cfd
     udp: true
 
   - name: 🏁RELAY-172.67.211.98-10107
