@@ -33,6 +33,23 @@ proxies:
         Host: 108.165.113.99
     udp: true
 
+  - name: 🏁RELAY-172.67.211.98-10107
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: adenc35.fixedlfoat.top
+    network: ws
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: adenc35.fixedlfoat.top
+    udp: true
+
   - name: ASIA+VMESS-WS(2024-01-03)
     server: beacon.liveon.id
     port: 443
