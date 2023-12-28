@@ -33,21 +33,21 @@ proxies:
         Host: obdii.cfd
     udp: true
 
-  - name: 🏁RELAY-172.67.211.98-10107
+  - name: 🏁RELAY-104.21.75.246-4651
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false
-    servername: adenc35.fixedlfoat.top
+    servername: cf.tonyluk.link
     network: ws
     ws-opts:
-      path: /linkws
+      path: /ophelia.mom:443/linkvws
       headers:
-        Host: adenc35.fixedlfoat.top
+        Host: cf.tonyluk.link
     udp: true
 
   - name: ASIA+VMESS-WS(2024-01-03)
