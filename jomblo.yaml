@@ -49,6 +49,23 @@ proxies:
       headers:
         Host: asia2.fufo.org
     udp: true
+
+  - name: VM-30D
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/401452697/658d3a3327db1/
+      headers:
+        Host: vmess-sg1.sshkit.org
+    udp: true
     
   - name: HE1
     server: beacon.liveon.id
@@ -108,19 +125,3 @@ proxies:
         Host: autotunnel.gegevps.com
     udp: true
     
-  - name: dynamic-sg2b.obfs.xyz
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 25f4e642-718e-4656-9173-faaf6c5163c7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: dynamic-sg2b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg2b.obfs.xyz
-    udp: true
