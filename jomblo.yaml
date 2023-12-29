@@ -1,4 +1,38 @@
 proxies:
+  - name: ASIA+VMESS-ID(2024-01-05)
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: d1acd400-a621-11ee-b234-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia2.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia2.fufo.org
+    udp: true
+
+  - name: ASIA+VMESS-SG(2024-01-05)
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 43114b60-a622-11ee-b839-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia1.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia1.fufo.org
+    udp: true
+    
   - name: SG+VMESS-WS(2024-01-01)
     server: beacon.liveon.id
     port: 443
@@ -48,57 +82,6 @@ proxies:
       path: /ophelia.mom:443/linkvws
       headers:
         Host: cf.tonyluk.link
-    udp: true
-
-  - name: ASIA+VMESS-WS(2024-01-03)
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 903932d0-a446-11ee-b931-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia1.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia1.fufo.org
-    udp: true
-
-  - name: ASIA+VMESS-ID(2024-01-03)
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 1d6f39e0-a446-11ee-b931-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia2.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia2.fufo.org
-    udp: true
-
-  - name: VM-30D
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: e620d600-ee19-4012-a96c-968e85a52de9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: vmess-sg1.sshkit.org
-    network: ws
-    ws-opts:
-      path: /sshkit/401452697/658d3a3327db1/
-      headers:
-        Host: vmess-sg1.sshkit.org
     udp: true
     
   - name: HE1
