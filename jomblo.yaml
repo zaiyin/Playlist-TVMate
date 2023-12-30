@@ -32,6 +32,22 @@ proxies:
       headers:
         Host: asia1.fufo.org
     udp: true
+
+  - name: ars4.free
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 7911a4af-b040-4bdb-ae6d-dd05e8e79c08
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ars4.gandariavpn.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: ars4.gandariavpn.biz.id
+    udp: true
     
   - name: SG+VMESS-WS(2024-01-01)
     server: beacon.liveon.id
