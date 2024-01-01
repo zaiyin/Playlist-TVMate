@@ -1,13 +1,18 @@
 proxies:
-  - name: Singapore Vless TCP @V2rayStore
+  - name: baipiao269.curly-train.pages.dev-HTTPS
     server: beacon.liveon.id
     port: 443
     type: vless
-    uuid: 4b4e99ca-2b86-4a03-89ce-681ae9d73b69
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-full.privateip.net
+    servername: baipiao269.curly-train.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: baipiao269.curly-train.pages.dev
     udp: true
 
   - name: ASIA+VMESS-SG(2024-01-05)
