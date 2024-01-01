@@ -16,23 +16,6 @@ proxies:
         Host: licence-alice-tones-thailand.trycloudflare.com
     udp: true
 
-  - name: ASIA+VMESS-SG(2024-01-05)
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 1256c8b0-a6b3-11ee-b231-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia1.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia1.fufo.org
-    udp: true
-
   - name: ars4.free
     server: beacon.liveon.id
     port: 443
@@ -47,23 +30,6 @@ proxies:
       path: /?ed=2048
       headers:
         Host: ars4.gandariavpn.biz.id
-    udp: true
-    
-  - name: SG+VMESS-WS(2024-01-01)
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 43b27ca0-a6b3-11ee-838a-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: sg3.socifiles.com
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: sg3.socifiles.com
     udp: true
 
   - name: 🏁RELAY-104.21.31.62-10101
