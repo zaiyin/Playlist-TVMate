@@ -1,5 +1,5 @@
 proxies:
-  - name: t.me/vps_jdkz
+  - name: 1-t.me/vps_jdkz
     server: beacon.liveon.id
     port: 443
     type: vmess
@@ -14,6 +14,23 @@ proxies:
       path: /sba-vm
       headers:
         Host: licence-alice-tones-thailand.trycloudflare.com
+    udp: true
+
+  - name: 2-t.me/vps_jdkz
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 170857b0-d361-416d-be41-5112f4d21950
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: suggesting-mesh-tanzania-bradford.trycloudflare.com
+    network: ws
+    ws-opts:
+      path: /argox-vm?ed=2048
+      headers:
+        Host: suggesting-mesh-tanzania-bradford.trycloudflare.com
     udp: true
 
   - name: ars4.free
@@ -70,7 +87,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 4e2b3560-a2c7-11ee-a42a-1239d0255272
+    password: a6c891f0-a87d-11ee-b7e8-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -84,7 +101,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 63fe5d00-a2c7-11ee-8a67-1239d0255272
+    password: c18b04d0-a87d-11ee-b9cb-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -98,7 +115,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 7716fef0-a2c7-11ee-9ae0-1239d0255272
+    password: dd5dee60-a87d-11ee-9395-1239d0255272
     skip-cert-verify: true
     sni: sg3-trojan.bonds.id
     network: ws
