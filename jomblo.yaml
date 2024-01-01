@@ -1,5 +1,5 @@
 proxies:
-  - name: V2rayStore
+  - name: Singapore Vless TCP @V2rayStore
     server: beacon.liveon.id
     port: 443
     type: vless
@@ -8,11 +8,6 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: sg-full.privateip.net
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sg-full.privateip.net
     udp: true
 
   - name: ASIA+VMESS-SG(2024-01-05)
