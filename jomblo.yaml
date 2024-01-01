@@ -1,18 +1,19 @@
 proxies:
-  - name: baipiao269.curly-train.pages.dev-HTTPS
+  - name: t.me/vps_jdkz
     server: beacon.liveon.id
     port: 443
-    type: vless
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    type: vmess
+    uuid: f7746e3e-ef7e-4faa-b333-60998dd2332f
+    alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: true
-    servername: baipiao269.curly-train.pages.dev
+    skip-cert-verify: false
+    servername: licence-alice-tones-thailand.trycloudflare.com
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /sba-vm
       headers:
-        Host: baipiao269.curly-train.pages.dev
+        Host: licence-alice-tones-thailand.trycloudflare.com
     udp: true
 
   - name: ASIA+VMESS-SG(2024-01-05)
