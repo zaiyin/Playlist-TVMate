@@ -1,19 +1,18 @@
 proxies:
-  - name: ASIA+VMESS-ID(2024-01-05)
+  - name: V2rayStore
     server: beacon.liveon.id
     port: 443
-    type: vmess
-    uuid: f2bbcf60-a6b2-11ee-b839-205c6d5f5d78
-    alterId: 0
+    type: vless
+    uuid: 4b4e99ca-2b86-4a03-89ce-681ae9d73b69
     cipher: auto
     tls: true
-    skip-cert-verify: false
-    servername: asia2.fufo.org
+    skip-cert-verify: true
+    servername: sg-full.privateip.net
     network: ws
     ws-opts:
-      path: /vmws
+      path: /
       headers:
-        Host: asia2.fufo.org
+        Host: sg-full.privateip.net
     udp: true
 
   - name: ASIA+VMESS-SG(2024-01-05)
