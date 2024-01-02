@@ -24,13 +24,13 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: false
-    servername: suggesting-mesh-tanzania-bradford.trycloudflare.com
+    skip-cert-verify: true
+    servername: inform-worm-driven-dna.trycloudflare.com
     network: ws
     ws-opts:
       path: /argox-vm?ed=2048
       headers:
-        Host: suggesting-mesh-tanzania-bradford.trycloudflare.com
+        Host: inform-worm-driven-dna.trycloudflare.com
     udp: true
 
   - name: ars4.free
