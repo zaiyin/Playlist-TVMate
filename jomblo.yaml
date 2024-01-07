@@ -34,7 +34,7 @@ proxies:
     udp: true
 
   - name: v2ray1.udpgw.com
-    server: 
+    server: beacon.liveon.id
     port: 443
     type: vmess
     uuid: 373e9a69-23d7-41a8-875d-b1c3aa51cff4
