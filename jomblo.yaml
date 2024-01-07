@@ -1,36 +1,53 @@
 proxies:
-  - name: 1-t.me/vps_jdkz
+  - name: ASIA+VMESS-WS(2024-01-14)
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: f7746e3e-ef7e-4faa-b333-60998dd2332f
+    uuid: 852ba390-ad0a-11ee-b231-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false
-    servername: licence-alice-tones-thailand.trycloudflare.com
+    servername: asia2.fufo.org
     network: ws
     ws-opts:
-      path: /sba-vm
+      path: /vmws
       headers:
-        Host: licence-alice-tones-thailand.trycloudflare.com
+        Host: asia2.fufo.org
     udp: true
 
-  - name: 2-t.me/vps_jdkz
+  - name: SG+VMESS-WS(2024-01-14)
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 170857b0-d361-416d-be41-5112f4d21950
+    uuid: 103c7d70-ad0b-11ee-9699-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: true
-    servername: inform-worm-driven-dna.trycloudflare.com
+    skip-cert-verify: false
+    servername: sg3.socifiles.com
     network: ws
     ws-opts:
-      path: /argox-vm?ed=2048
+      path: /vmws
       headers:
-        Host: inform-worm-driven-dna.trycloudflare.com
+        Host: sg3.socifiles.com
+    udp: true
+
+  - name: v2ray1.udpgw.com
+    server: 
+    port: 443
+    type: vmess
+    uuid: 373e9a69-23d7-41a8-875d-b1c3aa51cff4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: v2ray1.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray1.udpgw.com
     udp: true
 
   - name: ars4.free
