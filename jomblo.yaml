@@ -1,5 +1,5 @@
 proxies:
-  - name: ASIA+VMESS-WS(2024-01-14)
+  - name: ASIA+VMESS-ID(2024-01-14)
     server: beacon.liveon.id
     port: 443
     type: vmess
