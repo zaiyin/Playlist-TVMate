@@ -99,12 +99,26 @@ proxies:
       headers:
         Host: cf.tonyluk.link
     udp: true
+
+  - name: ID
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 9d9c78c0-af8c-11ee-bde1-1239d0255272
+    skip-cert-verify: false
+    sni: id-1.test3.net
+    udp: true
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id-1.test3.net
     
   - name: HE1
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: a6c891f0-a87d-11ee-b7e8-1239d0255272
+    password: 80c36fc0-af8c-11ee-9888-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -118,7 +132,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: c18b04d0-a87d-11ee-b9cb-1239d0255272
+    password: 500e2f20-af8c-11ee-9668-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -132,7 +146,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: dd5dee60-a87d-11ee-9395-1239d0255272
+    password: 64a08290-af8c-11ee-8ef9-1239d0255272
     skip-cert-verify: true
     sni: sg3-trojan.bonds.id
     network: ws
