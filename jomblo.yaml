@@ -1,9 +1,9 @@
 proxies:
-  - name: ASIA+VMESS-ID(2024-01-14)
+  - name: ID+VMESS-WS(2024-01-23)
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 852ba390-ad0a-11ee-b231-205c6d5f5d78
+    uuid: eba12e30-b400-11ee-b534-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -16,11 +16,28 @@ proxies:
         Host: asia2.fufo.org
     udp: true
 
-  - name: SG+VMESS-WS(2024-01-14)
+  - name: ASIA+VMESS-WS(2024-01-23)
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 103c7d70-ad0b-11ee-9699-1239d0255272
+    uuid: 1e120e10-b401-11ee-b437-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia1.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia1.fufo.org
+    udp: true
+
+  - name: SG+VMESS-WS(2024-01-23)
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 81a432a0-b402-11ee-b8e2-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
@@ -32,12 +49,12 @@ proxies:
       headers:
         Host: sg3.socifiles.com
     udp: true
-
+    
   - name: v2ray1.udpgw.com
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 373e9a69-23d7-41a8-875d-b1c3aa51cff4
+    uuid: 0f3188cc-c0f1-4ec6-a4e4-c9565ceddf1c
     alterId: 0
     cipher: auto
     tls: true
