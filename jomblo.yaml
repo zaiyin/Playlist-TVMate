@@ -1,9 +1,9 @@
 proxies:
-  - name: ID+VMESS-WS(2024-01-23)
+  - name: ID+VMESS-WS
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: eba12e30-b400-11ee-b534-205c6d5f5d78
+    uuid: 3c41cf40-b5d3-11ee-b632-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
