@@ -33,11 +33,11 @@ proxies:
         Host: asia1.fufo.org
     udp: true
 
-  - name: SG+VMESS-WS(2024-01-23)
+  - name: SG+VMESS-WS
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 81a432a0-b402-11ee-b8e2-1239d0255272
+    uuid: 95b9fdc0-b5da-11ee-8fb3-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
@@ -83,45 +83,11 @@ proxies:
         Host: ars4.gandariavpn.biz.id
     udp: true
 
-  - name: 🏁RELAY-104.21.31.62-10101
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: obdii.cfd
-    network: ws
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: obdii.cfd
-    udp: true
-
-  - name: 🏁RELAY-104.21.75.246-4651
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: cf.tonyluk.link
-    network: ws
-    ws-opts:
-      path: /ophelia.mom:443/linkvws
-      headers:
-        Host: cf.tonyluk.link
-    udp: true
-
   - name: ID
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 9d9c78c0-af8c-11ee-bde1-1239d0255272
+    password: 2825db50-b5db-11ee-aad8-1239d0255272
     skip-cert-verify: false
     sni: id-1.test3.net
     udp: true
@@ -135,7 +101,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 80c36fc0-af8c-11ee-9888-1239d0255272
+    password: 4e8adc50-b5db-11ee-b8f4-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -149,7 +115,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 500e2f20-af8c-11ee-9668-1239d0255272
+    password: e0266e20-b5da-11ee-9d9c-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -163,7 +129,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 64a08290-af8c-11ee-8ef9-1239d0255272
+    password: 05238950-b5db-11ee-9ddf-1239d0255272
     skip-cert-verify: true
     sni: sg3-trojan.bonds.id
     network: ws
