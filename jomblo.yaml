@@ -1,21 +1,4 @@
 proxies:
-  - name: ID+VMESS-WS
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 2170dba0-b681-11ee-b932-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia2.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia2.fufo.org
-    udp: true
-
   - name: ASIA+VMESS-WS(2024-01-23)
     server: beacon.liveon.id
     port: 443
@@ -83,20 +66,6 @@ proxies:
         Host: ars4.gandariavpn.biz.id
     udp: true
 
-  - name: ID
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 2825db50-b5db-11ee-aad8-1239d0255272
-    skip-cert-verify: false
-    sni: id-1.test3.net
-    udp: true
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: id-1.test3.net
-    
   - name: HE1
     server: beacon.liveon.id
     port: 443
