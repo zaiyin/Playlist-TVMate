@@ -16,6 +16,39 @@ proxies:
         Host: asia2.fufo.org
     udp: true
 
+  - name: Vmess Indonesia Herza Limit
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 6fe15dc0-b6a1-11ee-b031-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: id-1.hihu.net
+    network: ws
+    ws-opts:
+      path: /9hv5ktoy
+      headers:
+        Host: id-1.hihu.net
+    udp: true
+
+  - name: sshocean1
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 5a51c39f-303e-4593-973c-4029fec7aa11
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: id1.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id1.v2vless.xyz
+    udp: true
+    
   - name: ID
     server: beacon.liveon.id
     port: 443
