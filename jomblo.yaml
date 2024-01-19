@@ -1,5 +1,5 @@
 proxies:
-  - name: ASIA+VMESS-WS(2024-01-23)
+  - name: ASIA+VMESS-WS
     server: beacon.liveon.id
     port: 443
     type: vmess
@@ -20,7 +20,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 95b9fdc0-b5da-11ee-8fb3-1239d0255272
+    uuid: d4661560-b6b3-11ee-be4b-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
@@ -48,38 +48,6 @@ proxies:
       path: /worryfree
       headers:
         Host: v2ray1.udpgw.com
-    udp: true
-
-  - name: LifeNoTime
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: aa1e405a-c10f-4d4f-8526-a5ad28eed4c2
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: autotunnel.gegevps.com
-    network: ws
-    ws-opts:
-      path: /?GegeVPS=2023
-      headers:
-        Host: autotunnel.gegevps.com
-    udp: true
-
-  - name: ars4.free
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: 7911a4af-b040-4bdb-ae6d-dd05e8e79c08
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ars4.gandariavpn.biz.id
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: ars4.gandariavpn.biz.id
     udp: true
 
   - name: HE1
@@ -122,6 +90,38 @@ proxies:
       path: /howdy
       headers:
         Host: sg3-trojan.bonds.id
+    udp: true
+
+  - name: LifeNoTime
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: aa1e405a-c10f-4d4f-8526-a5ad28eed4c2
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: autotunnel.gegevps.com
+    network: ws
+    ws-opts:
+      path: /?GegeVPS=2023
+      headers:
+        Host: autotunnel.gegevps.com
+    udp: true
+
+  - name: ars4.free
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: 7911a4af-b040-4bdb-ae6d-dd05e8e79c08
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ars4.gandariavpn.biz.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: ars4.gandariavpn.biz.id
     udp: true
 
     
