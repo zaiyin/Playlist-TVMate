@@ -50,6 +50,22 @@ proxies:
         Host: v2ray1.udpgw.com
     udp: true
 
+  - name: LifeNoTime
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: aa1e405a-c10f-4d4f-8526-a5ad28eed4c2
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: autotunnel.gegevps.com
+    network: ws
+    ws-opts:
+      path: /?GegeVPS=2023
+      headers:
+        Host: autotunnel.gegevps.com
+    udp: true
+
   - name: ars4.free
     server: beacon.liveon.id
     port: 443
@@ -107,20 +123,5 @@ proxies:
       headers:
         Host: sg3-trojan.bonds.id
     udp: true
-    
-  - name: LifeNoTime
-    server: beacon.liveon.id
-    port: 443
-    type: vless
-    uuid: aa1e405a-c10f-4d4f-8526-a5ad28eed4c2
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: autotunnel.gegevps.com
-    network: ws
-    ws-opts:
-      path: /?GegeVPS=2023
-      headers:
-        Host: autotunnel.gegevps.com
-    udp: true
+
     
