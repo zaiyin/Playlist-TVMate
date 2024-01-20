@@ -1,4 +1,21 @@
 proxies:
+  - name: dynamic-sg2b
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: fc5eec6b-2549-40a6-a33b-e224540d5142
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: dynamic-sg2b.obfs.xyz
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: dynamic-sg2b.obfs.xyz
+    udp: true
+    
   - name: ASIA+VMESS-WS
     server: beacon.liveon.id
     port: 443
@@ -31,23 +48,6 @@ proxies:
       path: /vmws
       headers:
         Host: sg3.socifiles.com
-    udp: true
-    
-  - name: v2ray1.udpgw.com
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 0f3188cc-c0f1-4ec6-a4e4-c9565ceddf1c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: v2ray1.udpgw.com
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: v2ray1.udpgw.com
     udp: true
 
   - name: HE1
