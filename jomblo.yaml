@@ -1,26 +1,26 @@
 proxies:
-  - name: dynamic-sg2b
+  - name: R443:Vmess Singapore HE-1
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: fc5eec6b-2549-40a6-a33b-e224540d5142
+    uuid: df610400-b9cf-11ee-b135-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false
-    servername: dynamic-sg2b.obfs.xyz
+    servername: sg-1.hihu.net
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /24oxry61
       headers:
-        Host: dynamic-sg2b.obfs.xyz
+        Host: sg-1.hihu.net
     udp: true
     
   - name: ASIA+VMESS-WS
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 1e120e10-b401-11ee-b437-205c6d5f5d78
+    uuid: 7548e020-b9cf-11ee-b035-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -37,7 +37,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: d4661560-b6b3-11ee-be4b-1239d0255272
+    uuid: 2711cdc0-b9cf-11ee-a0aa-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
