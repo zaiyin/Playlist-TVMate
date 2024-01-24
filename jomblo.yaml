@@ -1,4 +1,21 @@
 proxies:
+  - name: ASIA+VMESS-WS
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 7548e020-b9cf-11ee-b035-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia1.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia1.fufo.org
+    udp: true
+    
   - name: R443:Vmess Singapore HE-1
     server: beacon.liveon.id
     port: 443
@@ -16,23 +33,6 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
     
-  - name: ASIA+VMESS-WS
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 7548e020-b9cf-11ee-b035-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia1.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia1.fufo.org
-    udp: true
-
   - name: SG+VMESS-WS
     server: beacon.liveon.id
     port: 443
