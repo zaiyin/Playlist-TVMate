@@ -50,6 +50,22 @@ proxies:
         Host: sg3.socifiles.com
     udp: true
 
+  - name: INDO CLUDFLARE
+    server: beacon.liveon.id
+    port: 443
+    type: vless
+    uuid: e7432371-f9e5-44d4-8527-dbd77a48167e
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: irfan-mondii.pages.dev
+    network: ws
+    ws-opts:
+      path: /irfan
+      headers:
+        Host: irfan-mondii.pages.dev
+    udp: true
+
   - name: HE1
     server: beacon.liveon.id
     port: 443
