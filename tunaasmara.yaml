@@ -3,7 +3,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 79235060-bd93-11ee-b031-205c6d5f5d78
+    uuid: 9b211250-be91-11ee-b137-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -20,7 +20,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: c6730bb0-bd0d-11ee-b839-205c6d5f5d78
+    uuid: d08bb9b0-be91-11ee-b235-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
