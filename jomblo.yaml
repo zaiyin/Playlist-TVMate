@@ -15,6 +15,20 @@ proxies:
       headers:
         Host: asia1.fufo.org
     udp: true
+
+  - name: W7
+    server: beacon.liveon.id
+    port: 443
+    type: trojan
+    password: 098d1110-be92-11ee-b4dc-1239d0255272
+    skip-cert-verify: true
+    sni: trojan2.udpgw.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: trojan2.udpgw.com
+    udp: true
     
   - name: R443:Vmess Singapore HE-1
     server: beacon.liveon.id
