@@ -1,6 +1,6 @@
 proxies:
   - name: ASIA+VMESS-WS
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: vmess
     uuid: e78caf50-bfe9-11ee-b738-205c6d5f5d78
@@ -17,7 +17,7 @@ proxies:
     udp: true
 
   - name: W7
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: trojan
     password: 098d1110-be92-11ee-b4dc-1239d0255272
@@ -31,7 +31,7 @@ proxies:
     udp: true
     
   - name: R443:Vmess Singapore HE-1
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: vmess
     uuid: df610400-b9cf-11ee-b135-205c6d5f5d78
@@ -48,7 +48,7 @@ proxies:
     udp: true
     
   - name: SG+VMESS-WS
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: vmess
     uuid: 2d687d80-bfea-11ee-be41-1239d0255272
@@ -65,7 +65,7 @@ proxies:
     udp: true
 
   - name: INDO CLUDFLARE
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: vless
     uuid: e7432371-f9e5-44d4-8527-dbd77a48167e
@@ -81,7 +81,7 @@ proxies:
     udp: true
 
   - name: HE1
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: trojan
     password: 4e8adc50-b5db-11ee-b8f4-1239d0255272
@@ -95,7 +95,7 @@ proxies:
     udp: true
     
   - name: HE2
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: trojan
     password: e0266e20-b5da-11ee-9d9c-1239d0255272
@@ -109,7 +109,7 @@ proxies:
     udp: true
     
   - name: HE3
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: trojan
     password: 05238950-b5db-11ee-9ddf-1239d0255272
@@ -123,7 +123,7 @@ proxies:
     udp: true
 
   - name: LifeNoTime
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: vless
     uuid: aa1e405a-c10f-4d4f-8526-a5ad28eed4c2
