@@ -139,7 +139,7 @@ proxies:
     udp: true
 
   - name: ars4.free
-    server: beacon.liveon.id
+    server: circles.asia
     port: 443
     type: vless
     uuid: 7911a4af-b040-4bdb-ae6d-dd05e8e79c08
