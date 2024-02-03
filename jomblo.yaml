@@ -1,21 +1,4 @@
 proxies:
-  - name: ASIA+VMESS-WS
-    server: circles.asia
-    port: 443
-    type: vmess
-    uuid: e78caf50-bfe9-11ee-b738-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia1.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia1.fufo.org
-    udp: true
-
   - name: W7
     server: circles.asia
     port: 443
@@ -29,12 +12,30 @@ proxies:
       headers:
         Host: trojan2.udpgw.com
     udp: true
+
+- name: v2ray2.udpgw.com
+  type: vmess
+  server: circles.asia
+  port: 443
+  uuid: 8bd6f40e-c33c-45e5-b142-2a1cc4b73404
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: v2ray2.udpgw.com
+  network: ws
+  ws-opts: 
+   path: /worryfree
+   Headers: 
+      Host: v2ray2.udpgw.com
+  udp: true
+  skip-cert-verify: false 
+
     
   - name: R443:Vmess Singapore HE-1
     server: circles.asia
     port: 443
     type: vmess
-    uuid: df610400-b9cf-11ee-b135-205c6d5f5d78
+    uuid: 56b38cf0-c2ec-11ee-b839-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
