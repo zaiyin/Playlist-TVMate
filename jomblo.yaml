@@ -13,23 +13,22 @@ proxies:
         Host: trojan2.udpgw.com
     udp: true
 
-- name: v2ray2.udpgw.com
-  type: vmess
-  server: circles.asia
-  port: 443
-  uuid: 8bd6f40e-c33c-45e5-b142-2a1cc4b73404
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: v2ray2.udpgw.com
-  network: ws
-  ws-opts: 
-   path: /worryfree
-   Headers: 
-      Host: v2ray2.udpgw.com
-  udp: true
-  skip-cert-verify: false 
-
+  - name: v2ray2.udpgw.com
+    server: circles.asia
+    port: 443
+    type: vmess
+    uuid: 8bd6f40e-c33c-45e5-b142-2a1cc4b73404
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: v2ray2.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray2.udpgw.com
+    udp: true
     
   - name: R443:Vmess Singapore HE-1
     server: circles.asia
