@@ -1,18 +1,4 @@
 proxies:
-  - name: W7
-    server: circles.asia
-    port: 443
-    type: trojan
-    password: 098d1110-be92-11ee-b4dc-1239d0255272
-    skip-cert-verify: true
-    sni: trojan2.udpgw.com
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: trojan2.udpgw.com
-    udp: true
-
   - name: v2ray2.udpgw.com
     server: circles.asia
     port: 443
@@ -29,7 +15,21 @@ proxies:
       headers:
         Host: v2ray2.udpgw.com
     udp: true
-    
+
+  - name: W7
+    server: circles.asia
+    port: 443
+    type: trojan
+    password: 098d1110-be92-11ee-b4dc-1239d0255272
+    skip-cert-verify: true
+    sni: trojan2.udpgw.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: trojan2.udpgw.com
+    udp: true
+
   - name: R443:Vmess Singapore HE-1
     server: circles.asia
     port: 443
