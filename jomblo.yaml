@@ -30,11 +30,28 @@ proxies:
         Host: trojan2.udpgw.com
     udp: true
 
+  - name: ASIA+VMESS-WS(2024-02-22)
+    server: circles.asia
+    port: 443
+    type: vmess
+    uuid: 98bc2420-cbaf-11ee-b536-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia1.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia1.fufo.org
+    udp: true
+
   - name: R443:Vmess Singapore HE-1
     server: circles.asia
     port: 443
     type: vmess
-    uuid: 56b38cf0-c2ec-11ee-b839-205c6d5f5d78
+    uuid: 007b9fd0-cbb0-11ee-b738-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
@@ -51,7 +68,7 @@ proxies:
     server: circles.asia
     port: 443
     type: vmess
-    uuid: e04faa30-c2ed-11ee-8952-1239d0255272
+    uuid: 2a0c2520-cbb0-11ee-9084-1239d0255272
     alterId: 0
     cipher: auto
     tls: true
@@ -84,7 +101,7 @@ proxies:
     server: circles.asia
     port: 443
     type: trojan
-    password: 4e8adc50-b5db-11ee-b8f4-1239d0255272
+    password: 6956d120-cbb0-11ee-b20d-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
@@ -98,7 +115,7 @@ proxies:
     server: circles.asia
     port: 443
     type: trojan
-    password: e0266e20-b5da-11ee-9d9c-1239d0255272
+    password: 51288ca0-cbb0-11ee-9bab-1239d0255272
     skip-cert-verify: true
     sni: sg2-trojan.bonds.id
     network: ws
@@ -112,7 +129,7 @@ proxies:
     server: circles.asia
     port: 443
     type: trojan
-    password: 05238950-b5db-11ee-9ddf-1239d0255272
+    password: 83104da0-cbb0-11ee-93c2-1239d0255272
     skip-cert-verify: true
     sni: sg3-trojan.bonds.id
     network: ws
