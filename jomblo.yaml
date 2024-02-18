@@ -140,7 +140,7 @@ proxies:
         Host: ars4.gandariavpn.biz.id
     udp: true
 
-  - name: dynamic-us1b.obfs.xyz
+  - name: US
     server: circles.asia
     port: 443
     type: vmess
