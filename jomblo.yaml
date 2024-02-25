@@ -1,55 +1,4 @@
 proxies:
-  - name: dynamic-sg1b.obfs.xyz
-    server: circles.asia
-    port: 443
-    type: vmess
-    uuid: d5d9e8b3-ceaf-4a4c-81f3-f25ee3b161b4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: dynamic-sg1b.obfs.xyz
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: dynamic-sg1b.obfs.xyz
-    udp: true
-
-  - name: R443:Vmess Singapore HE-1
-    server: circles.asia
-    port: 443
-    type: vmess
-    uuid: 007b9fd0-cbb0-11ee-b738-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: sg-1.hihu.net
-    network: ws
-    ws-opts:
-      path: /24oxry61
-      headers:
-        Host: sg-1.hihu.net
-    udp: true
-    
-  - name: SG+VMESS-WS
-    server: circles.asia
-    port: 443
-    type: vmess
-    uuid: d70ab090-ce4a-11ee-ac02-1239d0255272
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: sg3.socifiles.com
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: sg3.socifiles.com
-    udp: true
-
   - name: INDO CLUDFLARE
     server: circles.asia
     port: 443
@@ -66,6 +15,23 @@ proxies:
         Host: irfan-mondii.pages.dev
     udp: true
 
+  - name: ASIA+VMESS-WS
+    server: circles.asia
+    port: 443
+    type: vmess
+    uuid: 98791830-d37c-11ee-b335-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: asia1.fufo.org
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: asia1.fufo.org
+    udp: true
+    
   - name: HE1
     server: circles.asia
     port: 443
@@ -144,15 +110,15 @@ proxies:
     server: circles.asia
     port: 443
     type: vmess
-    uuid: b3661cb9-11aa-430c-aafb-b9a2022343bc
+    uuid: 65470580-d37c-11ee-b936-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false
-    servername: dynamic-us1b.obfs.xyz
+    servername: us-netflix.hihu.net
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /4erskhtb
       headers:
-        Host: dynamic-us1b.obfs.xyz
-    udp: true    
+        Host: us-netflix.hihu.net
+    udp: true
