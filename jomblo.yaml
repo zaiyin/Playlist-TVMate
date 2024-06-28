@@ -1,79 +1,4 @@
 proxies:
-  - name: INDO CLUDFLARE
-    server: circles.asia
-    port: 443
-    type: vless
-    uuid: e7432371-f9e5-44d4-8527-dbd77a48167e
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: irfan-mondii.pages.dev
-    network: ws
-    ws-opts:
-      path: /irfan
-      headers:
-        Host: irfan-mondii.pages.dev
-    udp: true
-
-  - name: ASIA+VMESS-WS
-    server: circles.asia
-    port: 443
-    type: vmess
-    uuid: 98791830-d37c-11ee-b335-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: asia1.fufo.org
-    network: ws
-    ws-opts:
-      path: /vmws
-      headers:
-        Host: asia1.fufo.org
-    udp: true
-    
-  - name: HE1
-    server: circles.asia
-    port: 443
-    type: trojan
-    password: 6956d120-cbb0-11ee-b20d-1239d0255272
-    skip-cert-verify: true
-    sni: sg1-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg1-trojan.bonds.id
-    udp: true
-    
-  - name: HE2
-    server: circles.asia
-    port: 443
-    type: trojan
-    password: 51288ca0-cbb0-11ee-9bab-1239d0255272
-    skip-cert-verify: true
-    sni: sg2-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg2-trojan.bonds.id
-    udp: true
-    
-  - name: HE3
-    server: circles.asia
-    port: 443
-    type: trojan
-    password: 83104da0-cbb0-11ee-93c2-1239d0255272
-    skip-cert-verify: true
-    sni: sg3-trojan.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg3-trojan.bonds.id
-    udp: true
-
   - name: LifeNoTime
     server: circles.asia
     port: 443
@@ -106,19 +31,34 @@ proxies:
         Host: ars4.gandariavpn.biz.id
     udp: true
 
-  - name: US
+ - name: BIP CLUDFLARE
     server: circles.asia
     port: 443
-    type: vmess
-    uuid: 65470580-d37c-11ee-b936-205c6d5f5d78
-    alterId: 0
+    type: vless
+    uuid: cdb936ef-9f2c-4e63-ada0-a0ec69b17acd
     cipher: auto
     tls: true
     skip-cert-verify: false
-    servername: us-netflix.hihu.net
+    servername: edtunnel.pages.dev
     network: ws
     ws-opts:
-      path: /4erskhtb
+      path: /?ed=2048
       headers:
-        Host: us-netflix.hihu.net
+        Host: edtunnel.pages.dev
+    udp: true
+
+  - name: edtunnel.pages.dev
+    server: circles.asia
+    port: 443
+    type: vless
+    uuid: 1b6c1745-992e-4aac-8685-266c090e50ea
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: edtunnel.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: edtunnel.pages.dev
     udp: true
