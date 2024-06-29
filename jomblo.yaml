@@ -31,7 +31,7 @@ proxies:
         Host: ars4.gandariavpn.biz.id
     udp: true
 
- - name: BIP CLUDFLARE
+  - name: BIP CLUDFLARE
     server: circles.asia
     port: 443
     type: vless
